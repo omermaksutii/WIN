@@ -1,0 +1,115 @@
+.sliderElements,
+.sliderElements figure,
+.sliderControls{
+ margin: 0 ;
+}
+
+.sliderElements:after{
+ content: "." ;
+ display: block ;
+ height: .1px ;
+ clear: both ;
+ visibility: hidden ;
+ font-size: 0 ;
+ overflow: hidden ;
+}
+
+.cssSlider{
+ overflow-x: hidden ;
+ position: relative ;
+}
+
+.sliderElements{
+ list-style: none ;
+ position: relative ;
+ left: 0 ;
+ padding: 0 ;
+ -webkit-transition: left .8s ease-in-out ;
+ -moz-transition: left .8s ease-in-out ;
+ -o-transition: left .8s ease-in-out ;
+ transition: left .8s ease-in-out ;
+}
+
+.sliderElements > li{
+ float: left ;
+ position: relative ;
+}
+ 
+.sliderElements img{
+ width: 100% ;
+ height: auto ;
+}
+
+.cssSlider input{
+ position: absolute ;
+ left: -99999px ;
+}
+ 
+.sliderControls{
+ text-align: center ;
+ margin-top: 10px ;
+}
+
+.sliderControls li{
+ display: inline-block ;
+}
+
+.sliderControls label{
+ width: 20px ;
+ height: 20px ;
+ line-height: 20px ;
+ text-align: center ;
+ border-radius: 2px ;
+ display: block ;
+ cursor: pointer ;
+ background: #F1F1F1 ;
+ color: #F1F1F1 ;
+}
+
+.sliderNichtSichtber{
+ display: none ;
+}
+
+#pfeilLinks{
+ position: absolute ;
+ top: calc(28%) ;
+ left: calc(2%) ;
+ z-index: 9999 ;
+ cursor: pointer ;
+ display: none ;
+ max-width: 5% ;
+}
+
+#pfeilRechts{
+ position: absolute ;
+ top: calc(28%) ;
+ right: calc(2%) ;
+ z-index: 9999 ;
+ cursor: pointer ;
+ max-width: 5% ;
+}
+
+img.imgSkalierbar{
+ max-width: 100% ;
+}
+
+img.imgDurchsichtig{
+ opacity: 0.2 ;
+ filter: Alpha(Opacity=20) ;
+}
+
+img.imgDurchsichtig:hover{
+ opacity: 1 ;
+ filter: Alpha(Opacity=100) ;
+}
+
+img.fade{
+ transition: opacity .25s ease-in-out ;
+ -moz-transition: opacity .25s ease-in-out ;
+ -webkit-transition: opacity .25s ease-in-out ;
+ -o-transition: opacity .25s ease-in-out ;
+}
+
+img.sliderImgSauber{
+ vertical-align: bottom ;
+}

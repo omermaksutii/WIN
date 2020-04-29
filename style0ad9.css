@@ -1,0 +1,4977 @@
+*{
+ b order: 1px solid #ff0000 ;
+ padding: 0 ;
+ margin: 0 ;
+}
+
+.produktDebuggerBereich{
+ overflow: scroll ;
+ position: fixed ;
+ top: 80px ;
+ bottom: 20px ;
+ left: 500px ;
+ l eft: 0 ;
+ font-size: 11px ;
+ w idth: 100% ;
+
+ width: 1400px ;
+ height: 250px ;
+ height: 400px ;
+ h eight: 800px ;
+ border: 1px solid #000 ;
+ background-color: #fff ;
+ z-index: 10 ;
+ display: none ;
+}
+
+font.schallsicher_blau{
+ color: #0096FF ;
+}
+
+#coronaDivLage{
+ text-align: center ;
+ height: 50px ;
+ line-height: 50px ;
+ background-color: #FF9600 ;
+ color: #fff ;
+}
+
+
+
+div.auswahlFilterZusammen{
+ margin-top: 10px ;
+}
+
+div.auswahlFilterZusammenInner{
+ text-align: center ;
+}
+
+div.auswahlFilterEinzeln{
+ position: relative ;
+ top: 0px ;
+ display: inline-block ;
+ margin-right: 10px ;
+}
+
+div.auswahlFilterEinzelnUberschrift{
+ text-align: left ;
+ height: 30px ;
+}
+
+div.auswahlFilterAnwendenButton{
+ font-size: 18px ;
+ background-color: #0096FF ;
+ color: #fff ;
+ padding-left: 10px ;
+ padding-right: 10px ;
+ border-radius: 5px ;
+}
+
+select.auswahlFilterSelect{
+ font-size: 18px ;
+}
+
+
+
+
+
+
+
+
+
+
+div.anleitungenUberschrift{
+ margin-top: 20px ;
+ font-weight: 600 ;
+ letter-spacing: 1px ;
+ text-transform: uppercase ;
+ margin-bottom: 10px ;
+}
+
+div.anleitungenLink{
+
+}
+
+div.lb_uberschrift{
+ text-align: left ;
+ font-weight: 600 ;
+ letter-spacing: 1px ;
+ text-transform: uppercase ;
+ margin-bottom: 10px ;
+}
+
+div.lb_inhalt{
+ text-align: left ;
+ letter-spacing: 1px ;
+ margin-bottom: 10px ;
+}
+
+div.lb_spezifikationen{
+
+}
+
+img.lb_img{
+ max-width: 300px ;
+}
+
+img.v_img{
+ width: 40px ;
+ margin-right: 10px ;
+}
+
+font.txtFensterStartSeiteUberschriftNeu{
+ font-size: 36px ;
+ font-weight: bold ;
+}
+
+font.txtFensterStartSeiteArgumenteNeu{
+ font-size: 18px ;
+}
+
+div.ankerButtonTopSeite{
+ position: absolute ;
+ top: -5px ;
+ right: 5px ;
+}
+
+img.ankerButtonTopSeite{
+ width: 30px ;
+ height: 30px ;
+ box-shadow: 0 0.2em 0.2em #B2B2B2 ;
+}
+
+img.ankerButtonTopSeite:hover{
+ box-shadow: 0 0.1em 0.1em #B2B2B2 ;
+}
+
+div.ankerButtonZusammen{
+ padding-top: 10px ;
+ padding-bottom: 10px ;
+ z-index: 998 ;
+ width: 100% ;
+ h eight: 60px ;
+ background-color: #ffffff ;
+ position: -webkit-sticky ;
+ position: sticky ;
+ top: 0 ;
+ text-align: center ;
+}
+
+div.ankerButton{
+ min-width: 200px ;
+ height: 40px ;
+ background-color: #0096FF ;
+ color: #fff ;
+ box-shadow: 0 0.2em 0.2em #B2B2B2 ;
+ text-align: center ;
+ display: inline-block ;
+ margin-top: 5px ;
+ margin-left: 5px ;
+ margin-right: 5px ;
+ line-height: 40px ;
+ font-weight: bold ;
+ font-size: 22px ;
+ border-radius: 5px ;
+}
+
+div.ankerButton:hover{
+ box-shadow: 0 0.1em 0.1em #B2B2B2 ;
+}
+
+div.ankerButton:action{
+ box-shadow: 0 0 0 0 ;
+}
+
+div.ersteLeiste{
+ width: 100% ;
+ margin-bottom: 10px ;
+}
+
+div.ersteLeisteInner{
+ margin: 0 auto ;
+ position: relative ;
+ max-width: 1200px ;
+}
+
+div.ersteLeisteInnerZwei{
+ position: relative ;
+ height: 121px ;
+}
+
+div.ersteLeisteInnerDrei{
+ display: none ;
+ position: relative ;
+ height: 121px ;
+}
+
+div.ersteLeisteInnerVier{
+ display: none ;
+ position: relative ;
+ height: 121px ;
+ b order-bottom: 1px solid #000 ;
+}
+
+div.ersteLeisteInnerFunf{
+ display: none ;
+ position: relative ;
+ height: 121px ;
+ b order-bottom: 1px solid #000 ;
+}
+
+div.ersteLeisteObenVier{
+ margin-top: 10px ;
+ width: calc(100% - 100px) ;
+}
+
+div.ersteLeisteUntenVier{
+ margin-top: 8px ;
+ width: calc(100% - 100px) ;
+}
+
+div.ersteLeisteObenLogoVier{
+ margin-left: 10px ;
+ width: 200px ;
+}
+
+div.ersteLeisteObenAuszeichnungenVier{
+ width: 140px ;
+}
+
+div.ersteLeisteAuszeichnungenEinzelnVier{
+ margin-left: 10px ;
+ width: 50px ;
+}
+
+img.ersteLeisteAuszeichnungenEinzelnVier{
+ max-width: 100% ;
+}
+
+div.ersteLeisteUntenVierSubMenu{
+ margin-left: 10px ;
+}
+
+div.ersteLeisteUntenVierTelefon{
+ margin-left: 80px ;
+ width: 220px ;
+}
+
+div.ersteLeisteInnerFunfOben{
+ position: relative ;
+ margin-top: 10px ;
+ width: 100% ;
+ height: 50px ;
+}
+
+div.ersteLeisteObenLogoFunf{
+ position: absolute ;
+ left: 10px ;
+ top: 0 ;
+ width: 214px ;
+}
+
+div.ersteLeisteObenWarenkorbFunf{
+ position: absolute ;
+ right: 0 ;
+ top: 0 ;
+ width: 60px ;
+}
+
+div.ersteLeisteInnerFunfUnten{
+ position: relative ;
+ width: 100% ;
+ height: 50px ;
+}
+
+div.ersteLeisteInnerFunfUntenSubMenu{
+ position: absolute ;
+ left: 10px ;
+ top: 0 ;
+ width: 60px ;
+}
+
+div.ersteLeisteMenuHandy{
+ display: none ;
+ width: 100% ;
+ border-bottom: 1px solid #000 ;
+}
+
+div.ersteLeisteMenuHandyInner{
+ overflow: hidden ;
+ width: 100% ;
+ height: 0px ;
+ transition: height 0.5s ease-in-out ;
+ font-size: 14px ;
+ font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" ;
+ line-height: 30px ;
+}
+
+div.ersteLeisteMenuHandyInnerEinzeln{
+ position: relative ;
+ background-color: #F5F5F5 ;
+ height: 30px ;
+ width: 100% ;
+ border-top: 1px solid #ccc !important ;
+ border-bottom: 1px solid rgba(200,200,200,0.2) ;
+}
+
+div.ersteLeisteMenuHandyInnerEinzelnOne{
+ position: absolute ;
+ left: 20px ;
+}
+
+div.ersteLeisteMenuHandyInnerEinzelnOnePlus{
+ position: absolute ;
+ right: 20px ;
+}
+
+div.ersteLeisteMenuHandyInnerEinzelnSub{
+ overflow: hidden ;
+ width: 100% ;
+ height: 0px ;
+ transition: height 0.5s ease-in-out ;
+ font-size: 14px ;
+ font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" ;
+ line-height: 30px ;
+ f ont-weight: bold ;
+ background-color: #FDFDFD ;
+}
+
+div.ersteLeisteMenuHandyInnerEinzelnSubBorder{
+ border-top: 1px solid rgba(200,200,200,0.2) ;
+}
+
+div.ersteLeisteMenuHandyInnerEinzelnSubInner{
+ margin-left: 20px ;
+}
+
+a.ersteLeisteMenuHandyInnerEinzelnOne{
+ padding: 5px ;
+ color: #494949 ;
+ font-weight: bold ;
+}
+
+a.ersteLeisteMenuHandyInnerEinzelnOne:hover{
+ color: #8E8E8E ;
+}
+
+a.ersteLeisteMenuHandyInnerEinzelnOneKonfigurator{
+ padding: 5px ;
+ color: #fff ;
+ background-color: #00B900 ;
+ font-weight: normal ;
+}
+
+a.ersteLeisteMenuHandyInnerEinzelnOneSub{
+ padding: 5px ;
+ color: #494949 ;
+}
+
+a.ersteLeisteMenuHandyInnerEinzelnOneSub:hover{
+ color: #8E8E8E ;
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFenster{
+ color: #494949 ;
+ font-weight: normal ;
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln{
+ height: 160px ;
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzelnGrafik{
+ -webkit-transition: background-image 0.1s ease-in-out ;
+ transition: background-image 0.1s ease-in-out ;
+ background-position: top center ;
+ background-repeat: no-repeat ;
+ background-size: 40% ;
+ margin-top: 10px ;
+ width: 100% ;
+ height: 130px ;
+}
+
+#ersteLeisteSubGrafik_0{
+ background-image: url('bilder/link/c_pvc.png') ;
+}
+
+#ersteLeisteSubGrafik_1{
+ background-image: url('bilder/link/c_holz.png') ;
+}
+
+#ersteLeisteSubGrafik_2{
+ background-image: url('bilder/link/c_holz-alu.png') ;
+}
+
+#ersteLeisteSubGrafik_3{
+ background-image: url('bilder/link/c_alu.png') ;
+}
+
+#ersteLeisteSubGrafik_4{
+ background-image: url('bilder/link/c_pvcalu.png') ;
+}
+
+#ersteLeisteSubGrafik_5{
+ background-image: url('bilder/link/c_pvc_balkon.png') ;
+}
+
+#ersteLeisteSubGrafik_6{
+ background-image: url('bilder/link/c_holz_balkon.png') ;
+}
+
+#ersteLeisteSubGrafik_7{
+ background-image: url('bilder/link/c_holz-alu_balkon.png') ;
+}
+
+#ersteLeisteSubGrafik_8{
+ background-image: url('bilder/link/c_alu_balkon.png') ;
+}
+
+#ersteLeisteSubGrafik_9{
+ background-image: url('bilder/link/c_pvcalu_balkon.png') ;
+}
+
+#ersteLeisteSubGrafik_10{
+ background-image: url('bilder/link/c_pvc_psk.png') ;
+}
+
+#ersteLeisteSubGrafik_11{
+ background-image: url('bilder/link/c_holz_psk.png') ;
+}
+
+#ersteLeisteSubGrafik_12{
+ background-image: url('bilder/link/c_holz-alu_psk.png') ;
+}
+
+#ersteLeisteSubGrafik_13{
+ background-image: url('bilder/link/c_alu_psk.png') ;
+}
+
+#ersteLeisteSubGrafik_14{
+ background-image: url('bilder/link/c_pvcalu_psk.png') ;
+}
+
+#ersteLeisteSubGrafik_15{
+ background-image: url('bilder/link/c_pvc_hsc81e.png?2') ;
+}
+
+#ersteLeisteSubGrafik_16{
+ background-image: url('bilder/link/c_alu_hs.png') ;
+}
+
+#ersteLeisteSubGrafik_17{
+ background-image: url('bilder/link/c_pvcalu_hs.png') ;
+}
+
+#ersteLeisteSubGrafik_18{
+ background-image: url('bilder/link/c_pvc_hausturen.png') ;
+}
+
+#ersteLeisteSubGrafik_19{
+ background-image: url('bilder/link/c_holz_hausturen.png') ;
+}
+
+#ersteLeisteSubGrafik_20{
+ background-image: url('bilder/link/c_alu_hausturen.png') ;
+}
+
+#ersteLeisteSubGrafik_21{
+ background-image: url('bilder/link/c_rolllade.png') ;
+}
+
+#ersteLeisteSubGrafik_22{
+ background-image: url('bilder/link/aussenjalousie_basic.png') ;
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzelnLink{
+ margin: 0 auto ;
+ width: 60% ;
+ height: 30px ;
+ background-color: #EBEBEB ;
+ padding: 0px 15px 0px 15px ;
+ line-height: 30px ;
+ border-radius: 5px ;
+ box-shadow: 0 0.2em 0.2em #B2B2B2 ;
+}
+
+a.ersteLeisteMenuInnerEinzelnSubFensterEinzeln{
+ color: #494949 ;
+}
+
+a.ersteLeisteMenuInnerEinzelnSubFensterEinzelnDirectLink{
+ color: Inherit ;
+}
+
+a.ersteLeisteMenuInnerEinzelnSubFensterEinzelnDirectLink:hover{
+ color: Inherit ;
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_0{
+ background-image:url('bilder/link/c_pvc_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_1{
+ background-image:url('bilder/link/c_holz_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_2{
+ background-image:url('bilder/link/c_holz-alu_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_3{
+ background-image:url('bilder/link/c_alu_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_4{
+ background-image:url('bilder/link/c_pvcalu_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_5{
+ background-image:url('bilder/link/c_pvc_balkon_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_6{
+ background-image:url('bilder/link/c_holz_balkon_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_7{
+ background-image:url('bilder/link/c_holz-alu_balkon_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_8{
+ background-image:url('bilder/link/c_alu_balkon_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_9{
+ background-image:url('bilder/link/c_pvcalu_balkon_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_10{
+ background-image:url('bilder/link/c_pvc_psk_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_11{
+ background-image:url('bilder/link/c_holz_psk_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_12{
+ background-image:url('bilder/link/c_holz-alu_psk_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_13{
+ background-image:url('bilder/link/c_alu_psk_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_14{
+ background-image:url('bilder/link/c_pvcalu_psk_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_15{
+ background-image:url('bilder/link/c_pvc_hs_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_16{
+ background-image:url('bilder/link/c_alu_hs_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_17{
+ background-image:url('bilder/link/c_pvcalu_hs_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_18{
+ background-image:url('bilder/link/c_pvc_hausturen_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_19{
+ background-image:url('bilder/link/c_holz_hausturen_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_20{
+ background-image:url('bilder/link/c_alu_hausturen_front.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_21{
+ background-image:url('bilder/link/c_rolllade.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubGrafik_22{
+ background-image:url('bilder/link/aussenjalousie_basic.png');
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_0,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_1,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_2,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_3,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_4,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_5,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_6,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_7,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_8,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_9,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_10,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_11,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_12,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_13,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_14,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_15,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_16,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_17,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_18,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_19,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_20,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_21,
+div.ersteLeisteMenuInnerEinzelnSubFensterEinzeln:hover #ersteLeisteSubLink_22{
+ background-color: #494949 ;
+ color: #fff ;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+div.ersteLeisteLogoZwei{
+ position: absolute ;
+ left: 0 ;
+ top: 25px ;
+ width: 300px ;
+}
+
+div.ersteLeisteLogoDrei{
+ position: absolute ;
+ left: 0 ;
+ top: 25px ;
+ width: calc(50% - 150px) ;
+}
+
+div.ersteLeisteTelefonZwei{
+ position: absolute ;
+ left: 330px ;
+ top: 25px ;
+ width: 320px ;
+}
+
+div.ersteLeisteTelefonDrei{
+ position: absolute ;
+ left: calc(50% - 130px) ;
+ top: 25px ;
+ width: 220px ;
+}
+
+div.ersteLeisteTelefonGrafikZwei{
+ width: 60px ;
+}
+
+div.ersteLeisteTelefonGrafikDrei{
+ width: 40px ;
+}
+
+img.ersteLeisteTelefonGrafikZwei, img.ersteLeisteTelefonGrafikDrei{
+ max-width: 100% ;
+}
+
+div.ersteLeisteTelefonTextZwei{
+ margin-top: 12px ;
+ margin-left: 12px ;
+}
+
+div.ersteLeisteTelefonTextDrei{
+ margin-top: 2px ;
+ margin-left: 5px ;
+}
+
+div.ersteLeisteTelefonTextObenZwei{
+ font-family: "Helvetica Neue" ;
+ line-height: 20px ;
+ font-size: 24px ;
+ font-weight: bold ;
+}
+
+div.ersteLeisteTelefonTextObenDrei{
+ font-family: "Helvetica Neue" ;
+ line-height: 20px ;
+ font-size: 20px ;
+ font-weight: bold ;
+}
+
+div.ersteLeisteTelefonTextUntenZwei{
+ font-size: 13.6px ;
+}
+
+div.ersteLeisteTelefonTextUntenDrei{
+ font-size: 11.4px ;
+}
+
+div.ersteLeisteAuszeichnungenZwei{
+ position: absolute ;
+ left: 630px ;
+ top: 25px ;
+ width: 260px ;
+}
+
+div.ersteLeisteAuszeichnungenDrei{
+ position: absolute ;
+ left: calc(50% + 110px) ;
+ top: 25px ;
+ width: calc(50% - 220px) ;
+}
+
+div.ersteLeisteAuszeichnungenEinzelnZwei{
+ width: 65px ;
+}
+
+div.ersteLeisteAuszeichnungenEinzelnDrei{
+ width: 65px ;
+}
+
+img.ersteLeisteAuszeichnungenEinzelnZwei{
+ width: 60px ;
+}
+
+img.ersteLeisteAuszeichnungenEinzelnDrei{
+ width: 60px ;
+}
+
+div.ersteLeisteWarenkorb{
+ position: absolute ;
+ right: 0 ;
+ top: 0 ;
+ width: 100px ;
+ height: 110px ;
+}
+
+div.ersteLeisteWarenkorbGrafik{
+ background:
+  url(bilder/wagen.png) top center no-repeat ;
+ height: 85px ;
+}
+
+div.ersteLeisteWarenkorbAnzahl{
+ position: absolute ;
+ left: 0 ;
+ top: 0 ;
+ font-size: 35px ;
+ color: #000 ;
+ width: 100px ;
+ text-align: center ;
+}
+
+div.ersteLeisteWarenkorPreis{
+ width: 100px ;
+ height: 25px ;
+ text-align: center ;
+}
+
+div.ersteLeisteMenu{
+ width: 100% ;
+ background-color: #EBEBEB ;
+ height: 40px ;
+ box-shadow: 0 0.2em 0.2em #B2B2B2 ;
+ font-size: 14px ;
+ font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" ;
+ line-height: 41px ;
+}
+
+div.ersteLeisteMenuInner{
+ margin: 0 auto ;
+ position: relative ;
+ max-width: 1200px ;
+}
+
+div.ersteLeisteMenuInnerEinzeln{
+ font-weight: bold ;
+ height: 40px !important;
+ width: calc((100% / 8) - 4px) ;
+ text-align: center ;
+}
+
+div.ersteLeisteMenuInnerEinzeln:hover, div.ersteLeisteMenuInnerEinzelnBreiter:hover{
+ color: #fff ;
+ background-color: #3F3F3F ;
+ border-bottom: 1px solid #3F3F3F ;
+ border-top: 1px solid #3F3F3F ;
+}
+
+div.ersteLeisteMenuInnerEinzelnBreiter{
+ font-weight: bold ;
+ height: 40px !important ;
+ width: calc((100% / 8) + 12px) ;
+ text-align: center ;
+}
+
+div.ersteLeisteMenuInnerEinzelnKonfigurator{
+ height: 40px !important ;
+ width: calc((100% / 8) - 4px) ;
+ text-align: center ;
+ background-color: #00B900 ;
+ color: #fff ;
+ text-shadow: 0.1em 0.1em 0.2em black ;
+}
+
+div.ersteLeisteMenuInnerEinzelnKonfigurator:hover{
+ text-shadow: none ;
+}
+
+div.ersteLeisteMenuInnerEinzeln_borderRechts{
+ border-right: 1px solid #ccc !important ;
+}
+
+div.ersteLeisteMenuInnerEinzeln_borderLinks{
+ border-left: 1px solid rgba(200,200,200,0.2) ;
+}
+
+div.ersteLeisteMenuInnerEinzeln_borderRechtsHell{
+ border-right: 1px solid rgba(200,200,200,0.2) ;
+}
+
+div.ersteLeisteMenuInnerEinzelnVersteckt{
+ display: none ;
+ z-index: 999 ;
+ position: absolute ;
+ top: 41px ;
+ left: 1px ;
+ width: 99.9% ;
+ height: 200px ;
+ cursor: auto ;
+ background-color: #f6f6f6 ;
+ border-bottom: 1px solid #3F3F3F ;
+ border-left: 1px solid #3F3F3F ;
+ border-right: 1px solid #3F3F3F ;
+ box-shadow: 0px 3px 5px 0 #ccc ; 
+}
+
+div.ersteLeisteMenuInnerEinzelnVerstecktHoch{
+ display: none ;
+ z-index: 999 ;
+ position: absolute ;
+ top: 41px ;
+ left: 1px ;
+ width: 99.9% ;
+ height: 480px ;
+ cursor: auto ;
+ background-color: #F6F6F6 ;
+ border-bottom: 1px solid #3F3F3F ;
+ border-left: 1px solid #3F3F3F ;
+ border-right: 1px solid #3F3F3F ;
+ box-shadow: 0px 3px 5px 0 #ccc ; 
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterUberschrift{
+ text-align: left ;
+ margin-left: 30px ;
+}
+
+div.ersteLeisteMenuInnerEinzelnSubFensterAbstandDiv{
+ margin: 0 auto ;
+ width: 95% ;
+ border-bottom: 1px solid #ccc ;
+ height: 30px ;
+}
+
+div.ersteLeisteMenuInnerEinzeln:hover #ersteLeisteMenuInnerEinzeln_1, 
+div.ersteLeisteMenuInnerEinzeln:hover #ersteLeisteMenuInnerEinzeln_2, 
+div.ersteLeisteMenuInnerEinzelnBreiter:hover #ersteLeisteMenuInnerEinzeln_3, 
+div.ersteLeisteMenuInnerEinzeln:hover #ersteLeisteMenuInnerEinzeln_4, 
+div.ersteLeisteMenuInnerEinzeln:hover #ersteLeisteMenuInnerEinzeln_5{
+ display: block ;
+}
+
+
+
+html {
+ scroll-behavior: smooth ;
+}
+
+body {
+ font-size: 1em ;
+ font-family: Trebuchet MS, Arial ;
+ line-height: 1.5 ;
+ color: #3F3F3F ;
+}
+
+#s_id{
+ display: none ;
+ position: fixed ;
+ top: 0 ;
+ left: 0 ;
+ background-color: #fff ;
+}
+
+table{
+ border-collapse: collapse ;
+ padding: 0 ;
+ margin: 0 ;
+}
+
+#debuggerLicht{
+ display: none ;
+}
+
+#debuggerLichtKurz{
+ display: none ;
+}
+
+#debuggerLichtGesamtZuruckUnterLicht, #debuggerLichtGesamtZuruckOberLicht{
+ font-weight: bold ;
+}
+
+.infoBild_td_padding{
+ padding-left: 2px ;
+ padding-right: 2px ;
+}
+
+#infoBild_1Soll{
+ margin-top: 5px ;
+ margin-bottom: 10px ;
+}
+
+#infoBild_tr_kasten{
+}
+
+#infoBild_td_kasten_bild{
+ height: 20px ;
+ background-color: #C0C1C3 ;
+ color: #fff ;
+}
+
+#infoBild_td_produkt_breite{
+ b order-left: 1px solid #000 ;
+ b order-right: 1px solid #000 ;
+ b order-bottom: 1px solid #000 ;
+}
+
+#infoBild_td_produkt_hohe, #infoBild_td_zusamen_hohe{
+ b order-top: 1px solid #000;
+ b order-right: 1px solid #000 ;
+ b order-bottom: 1px solid #000 ;
+}
+
+#infoBild_td_mit_oberunterlicht_zusamen_hohe{
+ b order-top: 1px solid #000;
+ b order-right: 1px solid #000 ;
+ b order-bottom: 1px solid #000 ;
+}
+
+#infoBild_td_mit_oberlicht_zusamen_hohe{
+ b order-top: 1px solid #000;
+ b order-right: 1px solid #000 ;
+ b order-bottom: 1px solid #000 ;
+}
+
+#infoBild_td_mit_unterlicht_zusamen_hohe{
+ b order-top: 1px solid #000;
+ b order-right: 1px solid #000 ;
+ b order-bottom: 1px solid #000 ;
+}
+
+#infoBild_td_kasten_hohe{
+ b order-top: 1px solid #000 ;
+ b order-right: 1px solid #000 ;
+}
+
+#infoBild_td_produkt_oberlicht_hohe{
+ b order-top: 1px solid #000;
+ b order-right: 1px solid #000 ;
+}
+
+#infoBild_td_produkt_unterlicht_hohe{
+ b order-right: 1px solid #000 ;
+ b order-bottom: 1px solid #000 ;
+}
+
+td.infoBild_td_produkt_breite{
+ border-left: 1px solid #000 ;
+ border-right: 1px solid #000 ;
+ border-bottom: 1px solid #000 ;
+}
+
+td.infoBild_td_produkt_hohe, td.infoBild_td_zusamen_hohe{
+ border-top: 1px solid #000;
+ border-right: 1px solid #000 ;
+ border-bottom: 1px solid #000 ;
+}
+
+td.infoBild_td_mit_oberunterlicht_zusamen_hohe{
+ border-top: 1px solid #000;
+ border-right: 1px solid #000 ;
+ border-bottom: 1px solid #000 ;
+}
+
+td.infoBild_td_mit_oberlicht_zusamen_hohe{
+ border-top: 1px solid #000;
+ border-right: 1px solid #000 ;
+ border-bottom: 1px solid #000 ;
+}
+
+td.infoBild_td_mit_unterlicht_zusamen_hohe{
+ border-top: 1px solid #000;
+ border-right: 1px solid #000 ;
+ border-bottom: 1px solid #000 ;
+}
+
+td.infoBild_td_verbindung_hohe{
+ border-top: 1px solid #000 ;
+}
+td.infoBild_td_kasten_hohe{
+ border-top: 1px solid #000 ;
+ border-right: 1px solid #000 ;
+}
+
+td.infoBild_td_produkt_oberlicht_hohe{
+ border-top: 1px solid #000;
+ border-right: 1px solid #000 ;
+}
+
+td.infoBild_td_produkt_unterlicht_hohe{
+ border-right: 1px solid #000 ;
+ border-bottom: 1px solid #000 ;
+}
+
+#hauptcontainer{
+ background-color: #fff ;
+ width: 100% ;
+}
+
+#hauptcontainer_center{
+ margin: 0 auto ;
+ position: relative ;
+ max-width: 1200px ;
+}
+
+#leiste_oben{
+ padding-top: 15px ;
+ width: 100% ;
+ background-color: #164FA2 ;
+ min-height: 100px ;
+}
+
+#leiste_oben_center{
+ max-width: 1200px ;
+ min-width: 300px ;
+ margin: 0 auto ;
+}
+
+div.leiste_oben_center_1{
+ margin-right: 30px ;
+}
+
+div.leiste_oben_center_2{
+ margin-right: 30px ;
+}
+
+div.leiste_oben_center_2_oben{
+ padding-left: 20px ;
+ font-size: 15px ;
+ color: #fff ;
+}
+
+div.leiste_oben_center_2_unten{
+ padding-left: 20px ;
+ font-size: 21px ;
+ color: #fff ;
+}
+
+img.telefon{
+ width: 60px ;
+}
+
+div.leiste_oben_center_3{
+ margin-right: 30px ;
+}
+
+div.leiste_oben_center_3_oben{
+ font-size: 15px ;
+ color: #fff ;
+}
+
+div.leiste_oben_center_3_unten{
+}
+
+div.leiste_oben_center_4{
+ margin-right: 30px ;
+}
+
+div.leiste_oben_center_5{
+
+}
+
+div.leiste_oben_center_5_center{
+ width: 200px ;
+ margin: 0 auto ;
+}
+
+div.einkaufswagen{
+ text-align: center ;
+ position: relative ;
+}
+
+#anzahlProdukteImWagen{
+ p osition: absolute ;
+ l eft: 20px ;
+ r ight: 0 ;
+ t op: 0 ;
+ f ont-size: 30px ;
+ c olor: #000 ;
+}
+
+img.wagen{
+ width: 100px ;
+ height: 67px ;
+}
+
+.leiste_oben_center_rechts_text{
+ font-size: 16px ;
+ color: #fff ;
+ text-align: center ;
+ width: 200px ;
+}
+
+#leiste_oben_menu{
+ width: 100% ;
+ background-color: #164FA2 ;
+ p adding-bottom: 10px ;
+ margin-bottom: 10px ;
+ border-bottom: 20px solid #B2D6FF ;
+}
+
+#leiste_oben_menu_center{
+ max-width: 1200px ;
+ m in-width: 402px ;
+ margin: 0 auto ;
+}
+
+.menuButtonEinzeln{
+ font-size: 28px ;
+ color: #C8C8C8 ;
+ font-family: Trebuchet MS, Arial ;
+ l ine-height: 1.2 ;
+ padding-right: 40px ;
+}
+
+div.buttonMenu_1{
+ display: none ;
+}
+
+a.menuButtonEinzelnHell{
+ color: #fff ;
+}
+
+a.menuButtonEinzelnHell:hover, a.menuButtonEinzelnDunkel:hover{
+ color: #fff ;
+}
+
+a.menuButtonEinzelnDunkel{
+ color: #cccccc ;
+}
+
+a.menuButtonEinzelnDunkelKonfigurator{
+ color: #fff ;
+}
+
+.menuButtonAbstand{
+ width: 30px ;
+ height: 10px ;
+}
+
+a.fuss_link{
+ font-size: 13px ;
+ color: #3F3F3F ;
+ line-height: 20px;
+}
+
+a.fuss_link:hover{
+ text-decoration: underline ;
+ color: #000 ;
+ 
+}
+
+font.fuss_spitze_klammer{
+ line-height: normal;
+ margin-right: 5px;
+ font-size: 13px ;
+ color: #929292 ;
+ line-height: 20px;
+ font-weight: 500 ;
+}
+
+#konfigurator{
+ position: relative ;
+ max-width: 1200px ;
+ m in-width: 402px ;
+ margin: 0 auto ;
+ m argin-top: 220px ;
+ m argin-top: 420px ;
+}
+
+#linksDiv{
+
+}
+
+.linksDiv{
+ font-size: 12px ;
+ position: absolute ;
+ top; 0px ;
+ left: 0px ;
+ width: 250px ;
+ opacity: 1 ;
+ -webkit-transition: all 0.1s ease-out ;
+ -moz-transition: all 0.1s ease-out ;
+ -ms-transition: all 0.1s ease-out ;
+ -o-transition: all 0.1s ease-out ;
+ transition: all 0.1s ease-out ;
+}
+
+#rechtsDiv{
+
+}
+
+.rechtsDiv{
+ top; 0px ;
+ margin-left: 260px ;
+ max-width: 940px ;
+ min-width: 200px ;
+}
+
+.left{
+ float: left ;
+}
+
+.right{
+ float: right ;
+}
+
+.clear_left{
+ clear: left ;
+}
+
+.clear_both{
+ clear: both ;
+}
+
+.clearer{
+ height: 1px ;
+ overflow: hidden ; 
+ margin-top:-1px ;
+ clear: both;
+ float: none ;
+}
+
+a{
+ text-decoration: none ;
+}
+
+a.aktive{
+ color: #000000 ;
+ text-decoration: none ;
+ font-weight: bold ;
+}
+
+img.produkt_bilder{
+ height: 140px ;
+}
+
+img.farben_infobox{
+ height: 50px ;
+ border: 1px solid #000 ;
+}
+
+font.schwarz{
+ font-weight: bold ;
+ color: black ;
+}
+
+font.red{
+ font-weight: bold ;
+ color: red ;
+}
+
+td{
+ text-align: center ;
+}
+
+.nicht_sichtber{
+ display: none ;
+}
+
+.nicht_sichtber_auswahl{
+ display: block ;
+ d isplay: none ;
+}
+
+.div_gr_1{
+ height: 50px ;
+}
+
+.div_gr_2{
+ height: 120px ;
+}
+
+.div_gr_3{
+ height: 120px ;
+}
+
+.AuswahlEinzeln{
+ display: block ;
+ /* aussehen */
+ b order: 1px solid #000 ;
+ border: 1px solid #2f3134 ;
+ p adding: 5px ;
+ m argin-bottom: 10px ;
+ margin-bottom: 2px ;
+ b ackground-color: #fff ;
+ b ackground-color: #383838 ;
+ background-color: #2f3134 ;
+ /* bis hier */
+}
+
+.AuswahlEinzelnPlus{
+ /* aussehen */
+ margin-left: 5px ;
+ margin-bottom: 5px ;
+ margin-top: 5px ;
+ /* bis hier */
+ width: 50px ;
+}
+
+.AuswahlEinzelnUberschrift{
+ /* aussehen */
+ m argin-top: 3px ;
+ margin-top: 8px ;
+ /* bis hier */
+}
+
+.kinderAuslesen{
+ text-align: center ;
+}
+
+.padding10{
+ padding-left: 10px ;
+ color: #8E8E8E ;
+}
+
+.padding10x10{
+ padding-left: 10px ;
+ padding-right: 10px ;
+}
+
+.hand{
+ cursor: pointer ;
+}
+
+.produktInfoBereich{
+ margin: 0 auto ;
+ width: 226px ;
+ border: 1px solid #000 ;
+ padding: 10px ;
+ background-color: #fff ;
+}
+
+.produktDebuggerReihe{
+ padding-left: 10px ;
+ padding-right: 10px ;
+ border-left: 1px solid #000 ;
+}
+
+.abstand_gross_div{
+ height: 20px ;
+ width: 20px ;
+}
+
+.abstand_div{
+ height: 10px ;
+ width: 10px ;
+}
+
+.abstand_klein_div{
+ height: 5px ;
+ width: 5px ;
+}
+
+.produktInfoBereichTitel{
+ color: #BC1717 ;
+ font-weight: bold ;
+ width: 100% ;
+ max-width: 210px ;
+}
+
+.produktInfoBereichInner{
+ margin-top: 5px ;
+ border-top: 1px solid #cccccc ;
+}
+
+.produktDebuggerInfoBereichInner{
+}
+
+img.infoProduktBild{
+ height: 90px ;
+}
+
+img.infoProduktOberLichtBild, img.infoProduktUnterLichtBild{
+ height: 30px ;
+}
+
+#produktParentVerlauf{
+ border: 1px solid #000 ;
+ max-width: 1250px ;
+ min-width: 200px ;
+ padding: 10px ;
+ margin-bottom: 10px ;
+ b ackground-color: #F9F8C7 ;
+}
+
+.produktParentVerlaufMargin{
+ margin-left: 260px ;
+}
+
+.ProduktInfoAusgabeTitel{
+ /* aussehen */
+ c olor: #3D3D3D ;
+ color: #fff ;
+ f ont-weight: bold ;
+ /* bis hier */
+}
+
+.ProduktInfoAusgabeUberschrift{
+ color: #3D3D3D ;
+ font-weight: bold ;
+ padding-right: 5px ;
+}
+
+
+.kinderProdukt{
+ text-align: center ;
+ min-width: 200px ;
+ display: inline-block ;
+ margin: 10px ;
+ border: 1px solid #ccc ;
+ padding: 10px ;
+}
+
+.kinderProduktTitel{
+ min-width: 200px ;
+ font-size: 1.5em ;
+ font-family: Arial ;
+ line-height: 1.5 ;
+ color: #000 ;
+ font-weight: bold ;
+}
+
+div.kinderProduktTitelTechData{
+ min-width: 200px ;
+ font-size: 1.5em ;
+ font-family: Arial ;
+ line-height: 1.5 ;
+ color: #000 ;
+ f ont-weight: bold ;
+}
+
+.kinderProduktI{
+ text-align: right ;
+}
+
+.kinderProduktLupe{
+ text-align: right ;
+}
+
+.kinderProduktLupeText{
+ font-size: 14px ;
+ text-align: right ;
+ width: 80% ;
+ color: #002b00 ;
+}
+
+.kinderProduktBildRelative{
+ position: relative ;
+}
+
+.kinderProduktBildKonfig{
+ position: relative ;
+ height: 50px ;
+}
+
+.kinderProduktBildKonfigBild{
+ z-index:1 ;
+ position: absolute ;
+ left: 0; 
+ right: 0; 
+ margin-left: auto ; 
+ margin-right: auto ;
+}
+
+.kinderProduktBildKonfigText{
+ z-index:2 ;
+ position: absolute ;
+ top: 14px ;
+ left: 0; 
+ right: 0; 
+ margin-left: auto ; 
+ margin-right: auto ;
+ color: #fff ;
+ font-size: 16px ;
+}
+
+.kinderProduktInfo{
+ font-weight: normal ;
+ margin-left: auto ;
+ margin-right: auto ;
+ display: table ;
+}
+
+.kinderProduktInfoCenter{
+ text-align: left ;
+ display: table-cell ; 
+}
+
+.kinderProduktInfoCenter_was_gibt_es{
+ text-align: center ;
+ color: #929292 ;
+ font-style: italic ;
+}
+
+img.imgSauber{
+ vertical-align: bottom ;
+}
+
+.kinderProduktAbstandDiv{
+ height: 20px ;
+ width: 20px ;
+}
+
+
+
+
+
+
+.bild_oberlicht_0, .bild_unterlicht_0{
+ position: relative ;
+ height: 41px ;
+}
+
+.bild_oberlicht_0_leer, .bild_unterlicht_0_leer{
+ position: relative ;
+ height: 32px ;
+}
+
+.bild_oberlicht_0_leer_extra, .bild_unterlicht_0_leer_extra{
+ position: relative ;
+ height: 41px ;
+}
+
+
+
+
+
+
+
+.bild_index_0{
+ height: 140px ;
+}
+
+.bild_index_0_grosser{
+ height: 122px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bild_index_1{
+ z-index: 1 ;
+ position: absolute ;
+ display: block ;
+ width: 140px ;
+ height: 140px ;
+ opacity: 1 ;
+ transition: opacity 1s ;
+}
+
+.bild_index_2{
+ z-index: 2 ;
+ position: absolute ;
+ display: none ;
+}
+
+.bild_index_3{
+ z-index: 3 ;
+ bottom: 0 ;
+ right: 0 ;
+ position: absolute ;
+}
+
+.bild_index_4{
+ text-align: center ;
+}
+
+.standardZusammen{
+ max-width: 1000px ;
+ min-width: 200px ;
+ text-align: center ;
+ /* aussehen */
+ background-color: #fff ;
+ /* bis hier */
+
+}
+
+.standardZusammenInfoOben{
+ p adding-top: 20px ;
+ padding-top: 10px ;
+ padding-bottom: 10px ;
+ padding-left: 10px ;
+ padding-right: 10px ;
+ background-color: #F9F8C7 ;
+ color: #2b2b2b ;
+}
+
+.standardZusammenInfoUnten{
+ margin-bottom: 10px ;
+}
+
+.standardEinzeln{
+ vertical-align: top ;
+ min-width: 140px ;
+ display: inline-block ;
+ margin: 10px ;
+ /* aussehen */
+ b order: 1px solid #00B300 ;
+ border: 1px solid #2f3134 ;
+ /* bis hier */
+ padding: 10px ;
+}
+
+.standardEinzelTitel{
+ max-width: 140px ;
+ h eight: 80px ;
+ height: 100px ;
+ overflow: hidden ;
+}
+
+.standardEinzelBild{
+ width: 140px ;
+ height: 140px ;
+ /* aussehen */
+ b order: 1px solid #00B300 ;
+ border: 1px solid #2f3134 ;
+ /* bis hier */
+}
+
+.standardEinzelBildRelative{
+ width: 140px ;
+ height: 140px ;
+ position: relative ;
+ margin: 0 auto ;
+}
+
+.standardEinzelnMitJava{
+
+}
+
+div.standardEinzelInfoLink{
+ width: 70px ;
+ margin-top: 20px ;
+ text-align: left ;
+}
+
+.standardEinzelnLupe{
+ width: 70px ;
+ margin-top: 20px ;
+ text-align: right ;
+}
+
+.BreiteHoheZusammen{
+ max-width: 950px ;
+ min-width: 200px ;
+ text-align: center ;
+}
+
+.BreiteHoheEinzeln{
+ v ertical-align: top ;
+ min-width: 230px ;
+ display: inline-block ;
+ margin: 10px ;
+ border: 1px solid #2f3134 ;
+ padding: 10px ;
+}
+
+div.BreiteHoheText{
+ width: 70px ;
+ padding: 5px 0px ;
+ font-size: 14px ;
+ color: #3D3D3D ;
+ text-align: center ;
+ background-color: #eee ;
+ border: 1px solid #ccc ;
+}
+
+div.BreiteHoheInput{
+
+}
+
+input.BreiteHoheTextInput{
+ text-align: center ;
+ padding: 1px 12px ;
+ font-size: 18px ;
+ color: #3D3D3D ;
+}
+
+
+
+
+
+
+span.BreiteHoheText{
+ padding: 8px 12px ;
+ font-size: 14px ;
+ color: #3D3D3D ;
+ text-align: center ;
+ background-color: #eee ;
+ border: 1px solid #ccc ;
+}
+
+div.BreiteHoheInfo{
+ font-size: 12px ;
+ color: #3D3D3D ;
+}
+
+.kaufenButton{
+ margin-top: 5px ;
+ position: relative ;
+ height: 50px ;
+ text-align: center ;
+}
+
+.kaufenButtonBild{
+ z-index:1 ;
+ position: absolute ;
+ left: 0; 
+ right: 0; 
+ margin-left: auto ; 
+ margin-right: auto ;
+}
+
+.kaufenButtonText{
+ font-size: 16px ;
+ font-weight: bold ;
+ z-index:2 ;
+ position: absolute ;
+ top: 14px ;
+ left: 0 ; 
+ right: 0 ; 
+ color: #fff ;
+}
+
+.kaufenBlende{
+ z-index:3 ;
+ position: absolute ;
+ height: 50px ;
+ width: 100% ;
+}
+
+.kaufenHref{
+ height: 49px ;
+ width: 170px ;
+}
+
+.kaufenBlendeInnen{
+ position: relative ;
+ height: 49px ;
+ width: 170px ;
+ margin: 0 auto ;
+}
+
+.kaufenBlendeInnen:hover{
+ border: 1px solid #2f3134 ;
+}
+
+.weiterKaufen{
+ text-align: center ;
+ font-weight: bold ;
+}
+
+.weiterKaufenAlternative{
+ width: 100% ;
+}
+
+.weiterKaufenAlternativeButton{
+ margin: 0 auto ;
+ width: 200px ;
+ padding: 20px ;
+ background-color: #00B900 ;
+ color: #fff ;
+ text-align: center ;
+ border-radius: 5px ;
+ text-shadow: 0.1em 0.1em 0.2em gray ;
+}
+
+.weiterKaufenAlternativeImInfo{
+ width: 100% ;
+ margin-top: 10px ;
+}
+
+.weiterKaufenAlternativeButtonImInfo{
+ margin: 0 auto ;
+ width: 150px ;
+ padding: 15px ;
+ background-color: #00B900 ;
+ color: #fff ;
+ text-align: center ;
+ font-size: 16px ;
+ border-radius: 5px ;
+}
+
+#infoGesamtsumme{
+ font-size: 18px ;
+ color: #3D3D3D ;
+ font-weight: bold ;
+}
+
+div.bold{
+ font-weight: bold ;
+}
+
+div.rot{
+ color: red ;
+}
+
+.verbreiterung{
+ text-align: center ;
+ min-width: 150px ;
+ display: inline-block ;
+ margin: 10px ;
+ border: 1px solid #2f3134 ;
+ padding: 10px ;
+}
+
+.verbreiterungUberschrift{
+ text-align: left ;
+}
+
+.verbreiterungRadio{
+ text-align: left ;
+}
+
+.divPfeilNachUnten{
+ position: relative ;
+}
+
+.divPfeilNachUnten:after, .divPfeilNachUnten:before{
+ top: 100% ;
+ left: 50% ;
+ border: solid transparent ;
+ content: " " ;
+ position: absolute ;
+}
+
+.divPfeilNachUnten:after{
+ border-top-color: #2f3134 ;
+ border-width: 10px ;
+ margin-left: -10px ;
+}
+
+.divPfeilNachUnten:before{
+ border-top-color: #2f3134 ;
+ border-width: 11px ;
+ margin-left: -11px ;
+}
+
+.meineLightboxBackground{
+ top: 0 ;
+ left: 0 ;
+ width: 100% ;
+ height: 100% ;
+ z-index: 1042 ;
+ overflow: hidden ;
+ position: fixed ;
+ background: rgba(0, 0, 0, 0.5) ;
+}
+
+.meineLightboxWrap{
+ top: 0 ;
+ left: 0 ;
+ width: 100% ;
+ height: 100% ;
+ z-index: 1043 ;
+ position: fixed ;
+}
+
+.meineLightboxContainer{
+ text-align: center ;
+ position: absolute ;
+ width: 100% ;
+ height: 100% ;
+ left: 0 ;
+ top: 0 ;
+}
+
+.meineLightboxContent{
+ position: relative ;
+ display: inline-block ;
+ vertical-align: middle ;
+ margin: 0 auto ;
+ z-index: 1045 ;
+}
+
+.meineLightboxViewad{
+ margin: 40px auto ;
+ position: relative ;
+ padding-top: 20px ;
+ padding-left: 20px ;
+ background: #fff ;
+ width: 620px ;
+}
+
+#meineLightboxInhalt_Text, #meineLightboxInhalt_Bild{
+}
+
+div.meineLightboxInhalt_Text, div.meineLightboxInhalt_Bild{
+ width: 600px ;
+ max-height: 700px ;
+ overflow-y: auto ;
+}
+
+#LightBoxBild{
+}
+
+.LightBoxBild{
+ width: 600px ;
+}
+
+#meineLightboxText{
+}
+
+div.meineLightboxText{
+ text-align: left ;
+ width: 570px ;
+}
+
+.meineLightboxAus{
+ width: 30px ;
+ text-align: right ;
+}
+
+.meineLightboxAbstand{
+ height: 1px ;
+ width: 600px ;
+ border-bottom: 1px solid #000 ;
+ margin-top: 10px ;
+ margin-bottom: 10px ;
+}
+
+.rollladenTrennDiv{
+ background-image: linear-gradient(90deg, #ffffff, #2f3134, #2f3134, #ffffff) ;
+ color: #fff ;
+}
+
+.siteMapAbstandDiv{
+ width: 30px ;
+ height: 1px ;
+}
+
+.informationBoxText{
+ margin-bottom: 20px ;
+}
+
+.abstandLightBoxUnten_div{
+ height: 20px ;
+ width: 20px ;
+}
+
+.produkt_test{
+ width: 1200px ;
+ margin-top: 20px ;
+}
+
+.produkt_test_center{
+ width: 500px ;
+ margin: 0 auto ;
+}
+
+.produktRahmen{
+ height: 140px ;
+ width: 110px ;
+ border: 10px solid #ccc ;
+}
+
+.produktRahmenDazu{
+ height: 140px ;
+ width: 110px ;
+ border-top: 10px solid #ccc ;
+ border-bottom: 10px solid #ccc ;
+ border-right: 10px solid #ccc ;
+}
+
+.produktFlugel{
+ position: relative ;
+ height: 140px ;
+ width: 110px ;
+ background-color: #C5C5C5 ;
+}
+
+.produktScheibeImFlugel{
+ position: absolute ;
+ top: 10px ;
+ left: 10px ;
+ width: 90px ;
+ height: 120px ;
+ background-color: #f2ffff ;
+}
+
+.produktScheibeOhneFlugel{
+ width: 100% ;
+ height: 100% ;
+ background-color: #f2ffff ;
+}
+
+.produktSchattenInnen{
+ - moz-box-shadow:    inset 0px 0px 5px 0 #000 ;
+ - webkit-box-shadow: inset 0px 0px 5px 0 #000 ;
+ box-shadow:          inset 0px 0px 5px 0 #000 ;
+}
+
+.produktSchattenAussen{
+ - moz-box-shadow:     0px 0px 5px 0 #000 ;
+ - webkit-box-shadow:  0px 0px 5px 0 #000 ;
+ box-shadow:           0px 0px 5px 0 #000 ;
+}
+
+.produktGriffLinksZu{
+ position: absolute ;
+ top: 65px ;
+ left: 4px ;
+ width: 3px ;
+ height: 25px ;
+ background-color: #fff ;
+}
+
+.produktGriffRechtsZu{
+ position: absolute ;
+ top: 65px ;
+ right: 4px ;
+ width: 3px ;
+ height: 25px ;
+ background-color: #fff ;
+}
+
+.produktGriffObenZu{
+ position: absolute ;
+ top: 4px ;
+ left: 52px ;
+ width: 25px ;
+ height: 3px ;
+ background-color: #fff ;
+}
+
+input.inputPostHidden{
+ width: 100px ;
+}
+
+.produktAusDemWarenkorbGrafik{
+ text-align: left ;
+ overflow: hidden ;
+}
+
+.produktAusDemWarenkorbPreis{
+ margin-top: 20px ;
+ text-align: left ;
+}
+
+
+
+
+
+
+.produktAusDemWarenkorbVisual{
+ width: 380px ;
+}
+
+.produktAusDemWarenkorbInhalt{
+ width: 380px ;
+}
+
+.produktAusDemWarenkorbBedienung{
+ width: 300px ;
+}
+
+
+
+
+
+.produktAusDemWarenkorbAbstand{
+ width: 50px ;
+ height: 50px ;
+}
+
+td.produktAusDemWarenkorbTDLinks{
+ text-align: left ;
+ padding-right: 20px ;
+}
+
+td.produktAusDemWarenkorbTDRechts{
+ text-align: right ;
+}
+
+td.produktAusDemWarenkorbTDRechtsKlein{
+ font-size: 11px ;
+ text-align: right ;
+}
+
+td.warenkorbTDGesamtsummeText, div.warenkorbTDGesamtsummeText{
+ text-align: left ;
+ padding-right: 20px ;
+ font-size: 24px ;
+ color: #2D2D2D ;
+}
+
+td.warenkorbTDGesamtsummeZahl, div.warenkorbTDGesamtsummeZahl{
+ text-align: right ;
+ font-size: 24px ;
+ color: #2D2D2D ;
+}
+
+td.warenkorbTDGesamtsummeWahrung, div.warenkorbTDGesamtsummeWahrung{
+ font-size: 24px ;
+ color: #2D2D2D ;
+}
+
+td.warenkorbTDdavonMwstText{
+ text-align: left ;
+ padding-right: 20px ;
+}
+
+td.warenkorbTDdavonMwstZahl{
+ text-align: right ;
+}
+
+div.warenkorbTDDoppelPunktUndKlammerZu{
+ padding-right: 20px ;
+}
+
+td.warenkorbTDdavonMwstWahrung{
+
+}
+
+.schrift_dunkel{
+ color: #2D2D2D ;
+ font-weight: bold ;
+}
+
+.marginNachUnten20{
+ margin-bottom: 20px ;
+}
+
+.marginNachOben20{
+ margin-top: 20px ;
+}
+
+.wasAlsNachstesZusammen{
+
+}
+
+.wasAlsNachstesEinzeln{
+ min-width: 200px ;
+ padding: 20px ;
+ background-color: #00B900 ;
+ color: #fff ;
+ text-align: center ;
+ margin-top: 5px ;
+ border-radius: 5px ;
+}
+
+.wasAlsNachstesEinzelnRot{
+ min-width: 200px ;
+ padding: 20px ;
+ background-color: #ff0000 ;
+ color: #fff ;
+ text-align: center ;
+ margin-top: 5px ;
+ border-radius: 5px ;
+}
+
+.wasAlsNachstesAbstand{
+ width: 10px ;
+ height: 10px ;
+}
+
+.seitenUberschrift{
+ font-size: 30px ;
+ color: #2D2D2D ;
+}
+
+.seitenTeilUberschrift{
+ font-size: 24px ;
+ color: #2D2D2D ;
+}
+
+.warenkorbTitle{
+ font-size: 30px ;
+ color: #2D2D2D ;
+}
+
+.warenkorblinieZiehen{
+ width: 100% ;
+ border-top: 1px solid #2D2D2D ;
+ margin-top: 10px ;
+ margin-bottom: 10px ;
+}
+
+.warenkorbGesamtsumme{
+
+}
+
+img.warenkorbBild{
+ height: 150px ;
+}
+
+img.warenkorbOberLichtBild, img.warenkorbUnterLichtBild{
+ height: 50px ;
+}
+
+select.produktAusDemWarenkorbSelect{
+ width: 50px ;
+ height: 30px ;
+ border: 1px solid #bbbbbb ;
+ text-align-last:center;
+}
+
+div.adressdatenGruppe{
+ margin-bottom: 10px ;
+}
+
+div.adressdatenGruppeLabel{
+ height: 30px ;
+ width: 150px ;
+ text-align-last: right ;
+ margin-right: 20px ;
+}
+
+select.adressdatenGruppeSelect{
+ width: 150px ;
+ height: 30px ;
+ border: 1px solid #bbbbbb ;
+ padding-left: 5px ;
+}
+
+select.adressdatenGruppeTextarea{
+ width: 150px ;
+ height: 30px ;
+ border: 1px solid #bbbbbb ;
+ padding-left: 5px ;
+}
+
+input.adressdatenGruppe{
+ height: 30px ;
+ width: 400px ;
+ border: 1px solid #bbbbbb ;
+ text-align-last: left ;
+ padding-left: 5px ;
+}
+
+textarea.adressdatenGruppe{
+ height: 100px ;
+ width: 400px ;
+ border: 1px solid #bbbbbb ;
+ padding-left: 5px ;
+}
+
+input, select, textarea{
+ font-size: 1em ;
+ font-family: Trebuchet MS, Arial ;
+ line-height: 1.5 ;
+ color: #8E8E8E ;
+}
+
+div.adressdatenGruppeRadioText{
+ margin-right: 20px ;
+ margin-left: 10px ;
+}
+
+
+fieldset{
+ border: none ;
+
+}
+
+.lightBoxButtonAussenMehrere{
+ margin:0 auto ;
+ max-width: 500px ;
+}
+
+div.lightBoxButtonAussen{
+ width: 240px ;
+ margin:0 auto ;
+}
+
+div.textDiv{
+ margin-top: 20px ;
+}
+
+select[disabled]{
+ background-color: rgb(235, 235, 228) ;
+}
+
+.produkteRekrusiv{
+ text-align: center ;
+}
+
+.produkteRekrusivCenter{
+ display: inline-block ;
+}
+
+.produkteRekrusivAufgeteilt{
+ border: 1px solid #555555 ;
+ min-width: 140px ;
+ padding: 10px ;
+ margin: 5px ;
+}
+
+.produkteRekrusivAufgeteiltTitle{
+ text-transform: uppercase ;
+}
+
+.produkteRekrusivAufgeteiltStrich{
+ border-bottom: 1px solid #444 ;
+ padding-bottom: 10px ;
+ margin-bottom: 10px ;
+}
+
+.produkteRekrusivButtonWidth{
+ width: 100% ;
+}
+
+.produkteRekrusivButton{
+ margin: 0 auto ;
+ padding-top: 15px ;
+ padding-bottom: 15px ;
+ background-color: #00B900 ;
+ color: #fff ;
+ text-align: center ;
+ border-radius: 5px ;
+}
+
+#leiste_unten{
+ width: 100% ;
+ margin-top: 10px ;
+ b ackground-color: #181819 ;
+ background-color: #f5f5f5 ;
+ padding-top: 20px ;
+ padding-bottom: 20px ;
+ border-top: 1px solid #2d2d2d ;
+}
+
+#leiste_unten_center{
+ margin: 0 auto ;
+ max-width: 1200px ;
+ m in-width: 402px ;
+}
+
+#leiste_unter_center_im_ceneter{
+ text-align: center ;
+}
+
+#tomputer {
+ margin-top: 20px;
+ margin-bottom: 20px ;
+ text-align: center ;
+ padding-top: 20px ;
+ font-size: 12px ;
+ color: rgb (146, 146, 146) ;
+ border-top: 1px solid rgb(204, 204, 204) ;
+}
+
+.leiste_unten_center_aufgeteilt{
+ vertical-align: top ;
+ display: inline-block ;
+ min-width: 210px ;
+ font-size: 12px ;
+ color: #929292 ;
+ text-align: left ;
+}
+
+.leiste_unten_center_aufgeteilt_uberschrift{
+ font-size: 16px ;
+ color: #3F3F3F ;
+ font-weight: bold ;
+}
+
+.details_zusammen{
+ margin-bottom: 50px ;
+}
+
+div.details_zusammen_leer{
+ width: 240px ;
+ height: 1px ;
+}
+
+div.details_zusammen_leer_2{
+ width: 270px ;
+ height: 1px ;
+}
+
+div.details_titel{
+ text-transform: uppercase ;
+ font-size: 36px ;
+ margin-bottom: 10px ;
+ color: #2d2d2d ;
+}
+
+.details_zusammen_links{
+ margin-right: 40px ;
+}
+
+.details_zusammen_rechts{
+ width: 700px ;
+}
+
+font.details_titel{
+ font-size: 24px ;
+ color: #555555 ;
+}
+
+img.details_zusammen_bild{
+ width: 200px ;
+}
+
+.details_zusammen_oben{
+ margin-top: 20px ;
+}
+
+.details_zusammen_unten{
+ margin-top: 20px ;
+}
+
+a.widerrufsrecht{
+ color: #00B900 ;
+}
+
+a.agb{
+ color: #00B900 ;
+}
+
+a.agb:hover, a.widerrufsrecht:hover{
+ text-decoration: underline ;
+}
+
+.downloads_uberschrift{
+ color: #002b00 ;
+ font-weight: bold ;
+ font-size: 20px ;
+}
+
+.downloads_einzeln{
+ margin-top: 20px ;
+}
+
+.produkteEinzelnVorstellen{
+ min-width: 200px ;
+
+ margin: 10px ;
+ border: 1px solid #555555 ;
+ padding: 10px ;
+}
+
+
+
+.produkteEinzelnVorstellenAnwendungTitle{
+ color: #002b00 ;
+ font-weight: bold ;
+}
+
+.produkteEinzelnVorstellenParent{
+
+}
+
+.produkteEinzelnVorstellenName{
+ font-size: 24px ;
+ color: #002b00 ;
+}
+
+.produkteEinzelnVorstellenHersteller{
+
+}
+
+.produkteEinzelnVorstellenReiche_1,
+.produkteEinzelnVorstellenReiche_3,
+.produkteEinzelnVorstellenReiche_4,
+.produkteEinzelnVorstellenReiche_5{
+ width: 200px ;
+ margin-right: 40px ;
+}
+
+.produkteEinzelnVorstellenReiche_2{
+ margin-right: 40px ;
+}
+
+.kontaktZusammen{
+ margin-top: 50px ;
+ margin-bottom: 50px ;
+}
+
+.kontaktZusammenLinks{
+ margin-right: 50px ;
+}
+
+.kontaktZusammenRechts{
+
+}
+
+.standardAbstandDiv{
+ margin-top: 50px ;
+ margin-bottom: 50px ;
+}
+
+#start_grafik{
+ width: 100% ;
+ t ext-align: center ;
+}
+
+.index_text_uberschrift{
+ font-size: 24px ;
+ color: #002b00 ;
+ margin-bottom: 30px ;
+}
+
+.index_text_standard{
+ margin-bottom: 30px ;
+}
+
+.index_text_standard_einrucken{
+ m argin-left: 30px ;
+}
+
+img.iso, img.garantie{
+ width: 80px ;
+}
+
+
+div.abstand_oben_div{
+ width: 40px ;
+ height: 40px ;
+}
+
+td.warenkorbTD_kasten{
+ height: 40px ;
+ background-color: #E1DED7 ;
+ border-bottom: 1px solid #8F8E8A ;
+ color: #fff ;
+}
+
+td.warenkorbTD_kastenHohe{
+ border-top: 1px solid #C0C1C3 ;
+ border-right: 1px solid #C0C1C3 ;
+ border-bottom: 1px solid #C0C1C3 ;
+}
+
+td.warenkorbTD_gesammtHohe{
+ border-top: 1px solid #C0C1C3 ;
+ border-right: 1px solid #C0C1C3 ;
+ border-bottom: 1px solid #C0C1C3 ;
+}
+
+td.warenkorbTD_oberLichtHohe{
+ border-top: 1px solid #C0C1C3 ;
+ border-right: 1px solid #C0C1C3 ;
+ border-bottom: 1px solid #C0C1C3 ;
+}
+
+td.warenkorbTD_unterLichtHohe{
+ border-bottom: 1px solid #C0C1C3 ;
+ border-right: 1px solid #C0C1C3 ;
+}
+
+td.warenkorbTD_verbindung{
+ border-top: 1px solid #C0C1C3 ;
+}
+
+td.warenkorbOberLichtMitGrafikHohe{
+ border-top: 1px solid #C0C1C3 ;
+ border-right: 1px solid #C0C1C3 ;
+ border-bottom: 1px solid #C0C1C3 ;
+}
+
+td.warenkorbTD_grafikHohe{
+ border-top: 1px solid #C0C1C3 ;
+ border-right: 1px solid #C0C1C3 ;
+ border-bottom: 1px solid #C0C1C3 ;
+}
+
+td.warenkorbTD_grafikBreite{
+ border-left: 1px solid #C0C1C3 ;
+ border-right: 1px solid #C0C1C3 ;
+ border-bottom: 1px solid #C0C1C3 ;
+}
+
+div.index_lieferzeiten_nur_text{
+ display: none ;
+}
+
+div.paypalRechts{
+ margin-top: 20px ;
+ margin-left: 20px ;
+}
+
+div.inotherm_standard{
+}
+
+#produkte_kostenlos{
+ width: 100% ;
+}
+
+@media only screen and (max-width : 1200px) {
+ div.ersteLeisteMenu{
+  font-size: 13px ;
+ }
+}
+
+@media only screen and (max-width : 1024px) {
+ div.ersteLeisteMenu{
+  font-size: 11px ;
+ }
+ #ersteLeisteInnerZwei{
+  display: none ;
+ }
+
+ #ersteLeisteInnerDrei{
+  display: block ;
+ }
+
+
+ #warenkorbVersandartLieferung{
+  width: 600px ;
+ }
+ input.adressdatenGruppe{
+  width: 150px ;
+ }
+
+ #leiste_oben_center_2, #leiste_oben_center_3, #leiste_oben_center_4{
+  float: none ;
+  display: none ;
+ }
+
+ #leiste_oben_center_1{
+  margin-right: 0px ;
+ }
+
+ #produkte_kostenlos{
+  width: 100% ;
+ }
+
+ #kontakt_karte{
+  width: 100% ;
+ }
+
+ #details_zusammen_rechts{
+  width: 500px ;
+ }
+
+ img.warenkorbBild{
+  height: 150px ;
+  width: auto ;
+ }
+
+ div#leiste_oben_neu_text{
+  padding-top: 20px ;
+  font-size: 14px ;
+ }
+
+ a.buttonMenuNeu{
+  font-size: 14px ;
+ }
+
+ div#buttonMenuKonfiguratorStartenNeu{
+  margin-top: 17px ;
+  font-size: 14px ;
+ }
+
+ div#buttonMenuNeuZusammen{
+  padding-top: 18px ;
+ }
+
+ div#txtFensterStartSeite{
+  margin-top: 50px ;
+  font-size: 14px ;
+ }
+
+}
+
+@media only screen and (max-width : 900px) {
+ div.ersteLeisteMenu{
+  font-size: 10px ;
+ }
+}
+
+@media only screen and (max-width : 750px) {
+ #coronaDivLage{
+  height: 40px ;
+  line-height: 40px ;
+  font-size: 14px ;
+ }
+
+ #ersteLeisteMenuHandy{
+  display: block ;
+ }
+
+ #ersteLeisteMenu{
+  display: none ;
+ }
+ 
+ #ersteLeisteInnerDrei{
+  display: none ;
+ }
+
+ #ersteLeisteInnerVier{
+  display: block ;
+ }
+
+
+ #warenkorbVersandartLieferung{
+  width: 400px ;
+ }
+
+ #leiste_oben_center_2, #leiste_oben_center_3, #leiste_oben_center_4{
+  display: none ;
+ }
+
+ #leiste_oben_center_1, #leiste_oben_center_5{
+  float: none ;
+  clear: both ;
+  margin-right: 0px ;
+  text-align: center ;
+  margin-right: 0px ;
+ }
+
+ div.leiste_oben_center_5{
+  padding-bottom: 10px ;
+ }
+
+ #buttonMenu_1, #buttonMenu_2, #buttonMenu_3, #buttonMenu_4, #buttonMenu_5, #buttonMenu_6, #buttonMenu_7, #buttonMenu_8{
+  float: none ;
+  clear: both ;
+  text-align: center ;
+  padding-right: 0px ;
+  border-top: 1px solid #2b2b2b ;
+ }
+
+ div.leiste_unten_center_aufgeteilt{
+  float: none ;
+  clear: both ;
+  text-align: center ;
+  margin-top: 10px ;
+ }
+
+ #produktParentVerlauf{
+  margin-left: 0px ;
+ }
+
+ #linksDiv{
+  position: static ;
+  width: 100% ;
+ }
+
+ #rechtsDiv{
+  margin-left: 0px ;
+ }
+
+ #start_grafik{
+  width: 100% ;
+ }
+
+ #meineLightboxViewad{
+  width: 380px ;
+ }
+
+ #meineLightboxInhalt_Text{ 
+  width: 360px ;
+ }
+
+ #meineLightboxInhalt_Bild{
+  width: 360px ;
+ }
+
+ #LightBoxBild{
+  width: 360px ;
+ }
+
+ #meineLightboxText{
+  width: 330px ;
+ }
+
+ #meineLightboxAbstand{
+  width: 360px ;
+ }
+
+ .details_zusammen_leer{
+  display: none ;
+ }
+
+ .details_titel{
+  width: 100% ;
+  text-align: center ;
+ }
+
+ #details_zusammen_rechts{
+  width: 45% ;
+ }
+
+ img.warenkorbBild{
+  height: 150px ;
+  width: auto ;
+ }
+
+ div.produktAusDemWarenkorbBedienung{
+  max-width: none ;
+  width: 300px ;
+  margin: 0 auto ;
+  margin-left: 0 ;
+ }
+
+
+ div.wasAlsNachstesZusammen{
+  width: 300px ;
+  margin: 0 auto ;
+ }
+
+ div.wasAlsNachstesEinzeln{
+  float: none ;
+  clear: left ;
+ }
+ 
+ div.wasAlsNachstesAbstand{
+  float: none ;
+  clear: left ;
+  display: none ;
+ }
+
+ div#leiste_oben_neu_text{
+  display: none ;
+ }
+
+ div#leiste_oben_neu_einkaufswagen{
+  right: 70px ;
+  position: absolute ;
+ }
+
+ div#leiste_oben_neu_menu_button{
+  display: block ;
+ }
+
+ div#leiste_oben_menu_neu{
+  display: none ;
+ }
+
+ div#leiste_oben_neu{
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+  text-align: left ;
+ }
+
+ div#leiste_oben_menu_smartphone_neu{
+  display: none ;
+ }
+
+ div#txtFensterStartSeite{
+  margin-top: 10px ;
+ }
+
+ div#imgFensterStartSeiteLieferkosten_0, div#imgFensterStartSeiteLieferkosten_1, div#imgFensterStartSeiteLieferkosten_2, div#imgFensterStartSeiteLieferkosten_3, div#imgFensterStartSeiteLieferkosten_4{
+  margin: 0 auto ;
+  float: none ;
+ }
+
+ div#txtFensterStartSeiteLieferkosten_0, div#txtFensterStartSeiteLieferkosten_1, div#txtFensterStartSeiteLieferkosten_2, div#txtFensterStartSeiteLieferkosten_3, div#txtFensterStartSeiteLieferkosten_4{
+  width: 100% ;
+  text-align: center ;
+  float: none ;
+  margin: 0 ;
+  padding-top: 20px ;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 480px) {
+ #coronaDivLage{
+  height: 30px ;
+  line-height: 30px ;
+  font-size: 12px ;
+ }
+
+ div.ersteLeisteWarenkorb{
+  display: none ;
+ }
+
+ #ersteLeisteInnerVier{
+  display: none ;
+ }
+
+ #ersteLeisteInnerFunf{
+  display: block ;
+ }
+
+ #warenkorbVersandartLieferung{
+  width: 300px ;
+ }
+
+ #index_lieferzeiten_grafisch{
+  display: none ;
+ }
+
+ #index_lieferzeiten_nur_text{
+  display: block ;
+ }
+
+ #details_zusammen_rechts{
+  text-align: center ;
+  width: 100% ;
+  float: none ;
+  clear: left ;
+ }
+
+ .details_zusammen_links{
+  width: 100% ;
+  float: none ;
+  clear: left ;
+ }
+
+ .details_zusammen_bild_div{
+  text-align: center ;
+ }
+
+ #produkteRekrusivButtonWidth{
+  margin: 0 auto ;
+  width: 300px ;
+  text-align: center ;
+  margin-bottom: 20px ;
+ }
+
+ .produktInfoBereichSchalter{
+  display: none ;
+ }
+
+ .produktInfoBereichInner{
+  text-align: center ;
+ }
+
+ img.warenkorbBild{
+  height: 150px ;
+  width: auto ;
+ }
+ 
+ div.produktAusDemWarenkorbBedienung{
+  max-width: none ;
+  width: 300px ;
+  margin: 0 auto ;
+ }
+
+
+ div.wasAlsNachstesZusammen{
+  width: 300px ;
+  margin: 0 auto ;
+ }
+
+ div.wasAlsNachstesEinzeln{
+  float: none ;
+  clear: left ;
+ }
+ 
+ div.wasAlsNachstesAbstand{
+  float: none ;
+  clear: left ;
+  display: none ;
+ }
+
+ div.paypalRechts{
+  margin-left: 0px ;
+ }
+
+ #produktInfoBereichID_1{
+  width: 80px ;
+  position: fixed ;
+  top: 0 ;
+  left: 0 ;
+  padding: 0 ;
+  z-index: 3 ;
+ }
+
+ #produktInfoBereichID_1_Titel{
+  display: none ;
+ }
+
+ #infoBereichPREIS{
+  border: 0 ;
+ }
+
+ #produktInfoBereichTextGesamtsumme{
+  font-size: 8px ;
+ }
+
+ #produktInfoBereichTextZZGVersand{
+  font-size: 8px ;
+ }
+
+ div.weiterKaufenAlternativeImInfo{
+  width: 76px ;
+  margin: 2px ;
+ }
+
+ div.weiterKaufenAlternativeButtonImInfo{
+  width: 100% ;
+  padding: 0 ;
+  padding-top: 5px ;
+  padding-bottom: 5px ;
+  background-color: #00B900 ;
+  color: #fff ;
+  text-align: center ;
+  font-size: 12px ;
+ }
+
+ div#leiste_oben_neu_logo{
+  max-width: 150px ;
+ }
+
+ div#imgFensterStartSeite{
+  float: none ;
+  width: 100% ;
+ }
+
+ div#txtFensterStartSeite{
+  float: none ;
+  width: 100% ;
+  text-align: center ;
+ }
+
+ div#buttonKonfiguratorFensterStartSeite{
+  margin: 0 auto ;
+ }
+
+ #cookieBanner{
+  top: 0px ;
+  bottom: auto ;
+ }
+}
+
+@media only screen and (max-width : 300px) {
+ #ersteLeisteObenLogoFunf{
+  width: 60% ;
+ }
+ #ersteLeisteUntenVierTelefon{
+  display: none ;
+ }
+}
+
+@media only screen and (max-width : 170px) {
+ #ersteLeisteObenLogoFunf{
+  display: none ;
+ }
+}
+
+
+
+
+div.progress_zusammen{
+ margin-top: 5px ;
+}
+
+div.progress_text{
+ min-width: 320px ;
+}
+
+.progress_balken{
+ min-width: 300px ;
+}
+
+
+#progress1, #progress2, #progress3, #progress4, #progress5, #progress6{
+ background: #F7F7F7 ;
+ border-radius: 3px ;
+ height: 22px ;
+ width: 400px ;
+}
+
+#progress1:after, #progress2:after, #progress3:after, #progress4:after, #progress5:after, #progress6:after{
+ color: #fff ;
+ padding-left: 50px ;
+ display: block ;
+ background: #0B8BCC ;
+ height: 100% ;
+ border-radius: 3px ;
+}
+
+#progress1:after{
+ content: '2-3 Wochen' ;
+ width: 30% ;
+}
+
+#progress2:after{
+ content: '4-5 Wochen' ;
+ width: 60% ;
+}
+
+#progress3:after{
+ content: '5-6 Wochen' ;
+ width: 80% ;
+}
+
+#progress4:after{
+ content: '3-5 Wochen' ;
+ width: 40% ;
+}
+
+#progress5:after{
+ content: '5-6 Wochen' ;
+ width: 80% ;
+}
+
+#progress6:after{
+ content: '4-6 Wochen' ;
+ width: 70% ;
+}
+
+.progress_neu{
+ background: #F7F7F7 ;
+ border-radius: 3px ;
+ height: 22px ;
+ width: 300px ;
+}
+
+.progress_neu:after{
+ color: #fff ;
+ p adding-left: 50px ;
+ display: block ;
+ background: #0B8BCC ;
+ height: 100% ;
+ border-radius: 3px ;
+ content: attr(data-after-content) ;
+ width: var(--progress-breite) ;
+ padding-left: 20px ;
+}
+
+
+
+img.index_grafiken_standard{
+ width: 100% ;
+}
+
+div.index_grafiken_standard{
+ width: 100% ;
+}
+
+
+
+
+div.index_grafiken_standard_zusammen_3{
+ margin-top: 20px ;
+ text-align: center ;
+}
+
+div.index_grafiken_standard_3{
+ width: 27% ;
+ display: inline-block ;
+ margin-left: 10px ;
+ margin-right: 10px ;
+}
+
+img.index_grafiken_standard_3{
+ width: 100% ;
+}
+
+#versandRadio_1, #versandRadio_2, #adressdatenCheckbox, #adressdatenCheckbox2, #paypalCheckbox, #uberweisungCheckbox{
+ height: 25px ;
+ width: 25px ;
+}
+
+div.zahlungsartGruppe{
+ margin-bottom: 10px ;
+}
+
+div.zahlungsartGruppeLabel{
+
+}
+
+div.zahlungsartGruppeInput{
+ margin-right: 20px ;
+ margin-top: 10px ;
+}
+
+div.center_div_max_breite{
+ width: 100% ;
+ margin: 0 auto ;
+}
+
+#warenkorbVersandartLieferung{
+ max-width: 800px ;
+}
+
+#zubehoer_zusammen{
+}
+
+#zubehoer_links{
+ float: left ;
+ margin-right: 20px ;
+}
+
+#zubehoer_mitte{
+ float: left ;
+ background-color: #F2F2F2 ;
+ padding-left: 50px ;
+ padding-right: 50px ;
+ padding-bottom: 50px ;
+ padding-top: 10px ;
+ margin-right: 20px ;
+ max-width: 280px ;
+ border: 1px solid #2f3134 ;
+}
+
+#zubehoer_rechts{
+ float: left ;
+ max-width: 380px ;
+ padding-top: 10px ;
+}
+
+#zubehoer_mitte_auswahl{
+ background-color: #F2F2F2 ;
+ padding: 50px ;
+}
+
+#zubehoer_mitte_auswahl_preis{
+ color: #000 ;
+
+}
+
+input.zubehoer_preis{
+ border: none ;
+ color: #000 ;
+ background-color: #F2F2F2 ;
+ width: 60% ;
+ font-size: 48px ;
+ text-align: right ;
+}
+
+input.zubehoerSelectName{
+ border: none ;
+ text-align: left ;
+ color: #3F3F3F ;
+ background-color: #F2F2F2 ;
+}
+
+input.zubehoer_laenge{
+ text-align: right ;
+ width: 100px ;
+ color: #3F3F3F ;
+}
+
+select.zubehoerSelect{
+ text-align: right ;
+ color: #3F3F3F ;
+ width: 100% ;
+ padding: 5px ;
+}
+
+#zubehoer_rechts_inhalt_title{
+ font-size: 48px ;
+}
+
+#zubehoer_zurueck{
+ padding: 10px 50px 10px 50px ;
+ background-color: #164FA2 ;
+ border-radius: 5px ;
+}
+
+a.zubehoer_zurueck{
+ decoration: none ;
+ color: #fff ;
+}
+
+#infoBildTableProdukt{
+ margin: 0 auto ;
+ border-collapse: collapse ;
+}
+
+td.zubehoerErstellenName_td{
+ text-align: left ;
+ padding-right: 20px ;
+}
+
+td.zubehoerErstellenInput_td{
+
+}
+
+input.zubehoerErstellenInput{
+ text-align: right ;
+}
+
+tr.zubehoerErstellen_tr{
+ padding-bottom: 20px ;
+ margin-bottom: 20px ;
+}
+
+#cookieBanner{
+ display: block ;
+ z-index: 99999 ;
+ position: fixed ;
+ top: 0px ;
+ margin: 0 ;
+ width: 100% ;
+
+}
+
+div.durchsichtig {
+ background: rgba(0, 0, 0, 0.8);
+ opacity: inherited;
+ filter: Alpha(Opacity=50);
+}
+
+#cookieBannerInner{
+ padding: 20px ;
+ text-align: center ;
+}
+
+#cookieText{
+ padding-right: 20px ;
+ color: #fff ;
+ display: inline-block ;
+}
+
+div.cookieButton{
+ margin-left: 5 ;
+ padding: 5px 10px 5px 10px ;
+ background: #00B900 ;
+ color: #fff ;
+ border-radius: 5px ;
+ display: inline-block ;
+}
+
+div.abWertDiv{
+ text-align: center ;
+ c olor: #929292 ;
+ color: #000 ;
+ f ont-style: italic ;
+}
+
+font.abWertZahl{
+ font-size: 1.5em ;
+ font-family: Arial ;
+ line-height: 1.5 ;
+ color: #000 ;
+ font-weight: bold ;
+}
+
+#weiterButtonPalPal{
+ min-width: 200px ;
+ padding: 20px ;
+ background-color: #00B900 ;
+ color: #fff ;
+ text-align: center ;
+ border: 0px ;
+ cursor: pointer ;
+ font-size: 1em ;
+ font-family: Trebuchet MS, Arial ;
+ line-height: 1.5 ;
+}
+
+#weiterButtonPalPal:disabled,
+#weiterButtonPalPal[disabled]{
+ background-color: #cccccc ;
+ cursor: auto ;
+}
+
+#rolloInfoBild{
+ margin-top: 20px ;
+}
+
+div.rolloUnsichtber{
+ display: none ;
+}
+
+#rolloGrafikTabele{
+ display: inline-block ;
+}
+
+#rolloGrafik{
+ text-align: center ;
+}
+
+#rolloKasten{
+ display: table-cell ;
+}
+
+#rolloAnzeigeKastenHohe{
+ display: table-cell ;
+ vertical-align: middle ;
+ text-align: center ;
+}
+
+font.blau_dick{
+ color: #0096FF ;
+ font-weight: bold ;
+}
+
+div.inotherm_standard{
+ max-width: 1200px ;
+ box-s hadow: 0 0 10px 3px #CCC ;
+ margin-top: 10px ;
+ margin-bottom: 20px ;
+}
+
+
+
+
+
+div.inotherm_center{
+ text-align: center ;
+}
+
+div.bild_inotherm_slayd{
+ max-width: 1200px ;
+ position: relative ;
+}
+
+img.StoProzent{
+ width: 100% ;
+}
+
+div.bildBoxSlayd{
+ position: relative ;
+ max-width: 1200px ;
+ display: inline-block ;
+}
+
+#bildSlaydNavi{
+ position: absolute ;
+ bottom: 0 ;
+ width: 100% ;
+ z-index: 9999 ;
+}
+
+#bildSlaydNaviInner{
+ text-align: right ;
+ margin-right: 20px ;
+}
+
+div.bildSlaydNaviMinis{
+ display: inline-block ;
+ width: 10px ;
+ height: 10px ;
+ border: 1px solid #282828 ;
+ margin-left: 2px ;
+ margin-right: 2px ;
+ cursor: pointer ;
+}
+
+div.bildBoxBGSlayd{
+ position: relative ;
+}
+
+div.bildBoxBG{
+ position: relative ;
+ max-width: 595px ;
+ overflow: hidden ;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.inothermContainer{
+
+}
+
+.inothermContainerText_h3{
+ color: #2a2c2f;
+ font-size: 15px;
+ letter-spacing: .3px;
+ font-weight: 400;
+ margin: 9px 0 0 20px;
+}
+
+.inothermContainerText_h2{
+ font-family: Arial;
+ color: #2a2c2f;
+ font-size: 18px;
+ padding: 8px 0 9px 11px;
+ text-transform: uppercase;
+}
+
+div.inothermLink{
+ margin-bottom: 5px;
+ height: 53px;
+ width: 100% ;
+ background-color: #4b4b4d ;
+}
+
+div.inothermLinkInner{
+ color: #fff ;
+ text-align: left ;
+ font-size: 27px ;
+ line-height: 55px ;
+ padding-left: 15px ;
+}
+
+div.inothermLinkInnerKonfiguratorButton{
+ background-color: #00B900 ;
+}
+
+div.inothermLink:hover{
+ background-color: #F4AA32 ;
+ cursor: pointer ;
+}
+
+
+
+p.font_1 {
+ color: #000;
+ font-weight: 700;
+ font-size: 26px!important;
+ text-align: center;
+ line-height: normal;
+}
+
+p.font_2 {
+ color: #fff;
+ font-size: 34px;
+ background: #F4AA32;
+ line-height: 36px;
+ text-align: center;
+ font-weight: 700;
+}
+	
+p.font_3 {
+ color: #000;
+ font-size: 14px;
+ margin-top: 5px;
+ text-align: center;
+}
+
+span.mehr {
+ p osition: absolute ;
+ color: #fff;
+ background: #4b4b4d;
+ font-size: 16px;
+ padding: 3px 13px;
+ float: right;
+ right: 5px;
+ bottom: 5px;
+}
+
+div.bordurka{
+ border: 1px solid #ccc ;
+ margin-bottom: 10px ;
+ margin-left: 12px ;
+ min-height: 180px ;
+}
+
+#slice0{
+ width: 300px ;
+}
+
+#slice1{
+ w idth: calc(100% - 324px) ;
+}
+
+#slice2{
+ display: none ;
+ w idth: calc(100% - 324px)  ;
+}
+
+div.slice1{
+}
+
+div.slice2{
+}
+
+div.slice2Inner{
+ padding-top: 20px ;
+ padding-left: 20px ;
+ p osition: relative ;
+}
+
+div.inothermHaustuerenProgrammBox1{
+ float: left ;
+ background: url(bilder/inotherm/box1.jpg) repeat-x;
+ height: 221px ;
+ margin-right: 8px ;
+ w idth: 344px ;
+ width: 392px ;
+}
+
+div.inothermHaustuerenProgrammBoxLinks{
+ float: left ;
+}
+
+div.inothermHaustuerenProgrammBoxRechts{
+ float: left ;
+ margin: 33px 0 0 11px;
+ width: 183px;
+}
+
+img.inothermHaustuerenProgrammImg{
+    margin: 14px 0 0 13px;
+}
+
+span.inothermboxTitle{
+    font-family: FuturaLTPro-Book,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2d3033;
+    font-size: 22px;
+    float: left;
+    margin-left: 16px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+span.floatRechts{
+ float: right ;
+}
+
+span.inothermboxTitleGreen{
+    float: left;
+    color: #F4AA32;
+    font-family: handel-gothic-bt,sans-serif;
+    font-size: 26px;
+    line-height: 37px;
+    margin-left: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600 ;
+}
+
+span.inothermboxBoxText{
+ text-transform: uppercase;
+    color: #2d3033;
+    font-size: 12px;
+    line-height: 16px;
+    float: left;
+    text-align: right;
+    height: 49px;
+    letter-spacing: .5px;
+    margin-top: 3px;
+}
+
+span.inothermboxNormalText{
+    color: #2d3033;
+    font-size: 15px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 31px;
+}
+
+span.inothermboxHugeNumb{
+    font-size: 38px;
+    margin-top: 5px;
+    margin-left: 4px;
+    float: left;
+}
+
+span.inothermboxCifreWat{
+ color: #2d3033;
+ float: left;
+ margin-top: 25px;
+ margin-left: 7px;
+}
+
+div.inothermAlleLinksLink{
+ margin-bottom: 5px;
+ h eight: 53px;
+ width: 100% ;
+ background-color: #4b4b4d ;
+}
+
+div.inothermAlleLinksLinkInner{
+ color: #fff ;
+ text-align: center ;
+ font-size: 27px ;
+ l ine-height: 55px ;
+}
+
+div.inothermAlleLinksLink:hover{
+ background-color: #F4AA32 ;
+ cursor: pointer ;
+}
+
+div.inothermUberschriftOrange{
+ color: #F4AA32;
+ font-family: Arial,sans-serif;
+ font-size: 24px;
+ font-weight: 600;
+ line-height: 24px; 
+}
+
+div.inothermTextLeft{
+ text-align: left ;
+}
+
+div.inothermContainerInner{
+ padding-left: 20px ;
+ padding-right: 20px ;
+ padding-top: 30px ;
+ padding-bottom: 30px ;
+}
+
+div.inothermTextBlock{
+ font-size: 12px;
+ font-family: Arial,sans-serif;
+ line-height: 17px;
+ text-align: justify;
+}
+
+div.inothermGrafikBlock{
+ margin-top: 30px ;
+ margin-right: 20px ;
+ max-width: 152px ;
+}
+
+div.inothermGrafikBlockImg{
+ border: 1px solid gray;
+}
+
+div.inothermGrafikBlockText{
+
+}
+
+div.inothermGrafikBlockTextUberschrift{
+ margin-top: 5px ;
+ font-size: 12px;
+ font-family: Arial,sans-serif;
+ line-height: 17px;
+}
+
+div.inothermGrafikBlockTextInhalt{
+ font-style: normal;
+ font-size: 12px;
+ font-family: Arial,sans-serif;
+ line-height: 17px;
+}
+
+font.inothermOrange{
+ color: #f4aa32;
+}
+
+font.inothermDick{
+ font-weight: 700;
+}
+
+div.inothermContainerNavi{
+ text-align: left ;
+ padding-left: 20px ;
+ background-color: #3F3F3F ;
+ color: #fff ;
+}
+
+a.inothermNavi{
+ color: #fff ;
+}
+
+a.inothermNavi:hover{
+ color: #F4AA32 ;
+}
+
+div.inothermYouTube{
+ margin-top: 20px ;
+}
+
+div.inothermTextBlockUberschrift{
+ margin: 22px 0;
+ color: #2A2C2F;
+ font-family: Arial,sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+ border-bottom: 1px solid rgba(0,0,0,.1);
+ padding-bottom: 6px;
+ font-weight: 700;
+ font-style: normal;
+}
+
+div.inothermTextBlockUberschriftOhneBorder{
+ margin: 22px 0;
+ color: #2A2C2F;
+ font-family: Arial,sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+ padding-bottom: 6px;
+ font-weight: 700;
+ font-style: normal;
+}
+
+div.inothermVorteileBild{
+}
+
+div.inothermVorteileText{
+ max-width: 600px ;
+}
+
+div.inothermVorteileBildPaddingUnten{
+ margin-bottom: 20px ;
+}
+
+div.inothermDiv30Prozent{
+ width: 20% ;
+}
+
+div.inothermDiv70Prozent{
+ width: 77% ;
+}
+
+div.inothermDiv60Prozent{
+ width: 55% ;
+}
+
+div.inothermDiv20Prozent{
+ width: 17% ;
+}
+
+div.inothermDiv33Prozent{
+ width: 30% ;
+}
+
+div.inothermMarginTop{
+ margin-top: 20px ;
+}
+
+div.inothermMarginRight{
+ padding-right: 2% ;
+}
+
+div.inothermBilderInEinerReihe{
+ position: relative ;
+}
+
+div.inothermBildEinzeln{
+ max-width: 15% ; ;
+ display: inline-block ;
+}
+
+div.inothermBildEinzelnText{
+ text-align: center ;
+ font-weight: 700;
+}
+
+griffDiv{
+ color: #ff0000 ;
+}
+
+img.logo_mf24_weiss_startseite{
+ width: 220px ;
+}
+
+div.inothermKatalogeUberschrift{
+}
+
+div.inothermKatalogeText{
+ margin-top: 10px ;
+ margin-bottom: 10px ;
+}
+
+div.inothermKatalogeLink{
+
+}
+
+div.inothermKatalogeLinkGrafik{
+
+}
+
+div.inothermKatalogeLinkText{
+ margin-left: 5px ;
+ margin-top: 2px ;
+}
+
+div.inothermKatalogeEinzeln{
+ margin-bottom: 30px ;
+}
+
+div.leiste_unten_center_aufgeteilt_inhalt{
+ font-size: 13px ;
+ color: #3F3F3F ;
+ line-height: 20px ;
+}
+
+a.href_telefon{
+ font-size: 13px ;
+ color: #3F3F3F ;
+ line-height: 20px ;
+}
+
+a.href_telefon:hover{
+ text-decoration: none ;
+ color: #000 ;
+}
+
+font.gruen{
+ color: #28B928 ;
+}
+
+font.weiss{
+ color: #fff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.techDataUberschriftDiv{
+ min-width: 200px ;
+ font-size: 2em ;
+ font-family: Arial ;
+ line-height: 1.5 ;
+ c olor: #000 ;
+ text-align: center ;
+}
+
+div.techDataAbstandDiv{
+ width: 20px; 
+ height: 20px ;
+}
+
+div.techDataCenter{
+ text-align: center ;
+}
+
+div.techDataLinieDiv{
+ max-width: 50% ;
+ margin: 0 auto ;
+ border-top: 1px solid #dbdbdb ;
+ b order-top: 1px solid #2f3134 ;
+}
+
+div.techDataPdfDivZusammen{
+ width: 100% ;
+ text-align: center ;
+}
+
+
+
+
+div.techDataPdfDiv{
+ border: 3px solid #28B928 ;
+ padding: 5px ;
+ width: 150px ;
+ min-width: 50px;
+
+}
+
+div.techDataInlineBlock{
+ display: inline-block ;
+ margin: 10px ; 
+}
+
+
+div.td_AuswahlEinzelnKopf{
+ width: 100% ;
+}
+
+
+.td_AuswahlEinzeln{
+ display: block ;
+ b order: 1px solid #2f3134 ;
+ margin-bottom: 2px ;
+ b ackground-color: #2f3134 ;
+ background-color: #dbdbdb ;
+}
+
+.td_AuswahlEinzelnPlus{
+ margin-left: 5px ;
+ margin-bottom: 5px ;
+ margin-top: 5px ;
+ width: 50px ;
+}
+
+.td_AuswahlEinzelnUberschrift{
+ color: #3F3F3F ;
+ font-weight: bold ;
+ margin-top: 8px ;
+}
+
+div.techDataImgDiv{
+ max-width: 600px ;
+ text-align: center ;
+ margin: 0 auto ;
+}
+
+img.techDataImgGrafik{
+ width: 100% ;
+}
+
+.td_standardZusammen{
+ max-width: 100% ;
+ min-width: 200px ;
+ text-align: left ;
+ background-color: #fff ;
+ padding: 10px ;
+ display: none ;
+}
+
+div.td_farben{
+ max-width: 100% ;
+ min-width: 200px ;
+ text-align: center ;
+}
+
+div.td_farben_bild{
+ vertical-align: top;
+ min-width: 50px;
+ display: inline-block;
+ margin: 10px;
+ border: 1px solid #dbdbdb ;
+ p adding: 1px;
+}
+
+img.td_farben_img{
+ width: 50px ;
+}
+
+.lupe {
+ cursor: -moz-zoom-in; 
+ cursor: -webkit-zoom-in; 
+ cursor: zoom-in;
+}
+
+div.techDataVideo{
+ width: 100% ;
+ text-align: center ;
+}
+
+video.techDataVideo{
+ width: 100% ;
+ max-width: 700px ;
+}
+
+
+span.techDataInfoBox{
+ color: #fff ;
+ position: absolute ;
+ visibility: hidden ;
+ width: 150px ;
+ margin-left: -118px ;
+ margin-top: 60px ;
+ text-decoration: none ;
+ padding: 15px 18px ;
+ background-color: #2f3134 ;
+ -webkit-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.4) ;
+ -moz-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.4) ;
+ box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.4) ;
+ z-index: 100 ;
+ overflow: hidden ;
+}
+
+div.td_farben_bild:hover span{
+ visibility: visible ;
+}
+
+span.techDataInfoBoxSpitze{
+ position: absolute ;
+ margin-top: 45px ;
+ margin-left: -35px ;
+ visibility: hidden ;
+ width: 0 ; 
+ height: 0 ; 
+ border-left: 10px solid transparent ;
+ border-right: 10px solid transparent ;
+ border-bottom: 20px solid #2f3134 ;
+ z-index: 100 ;
+}
+
+img.techDataPrinterGrafik{
+ width: 20px ;
+ margin-right: 10px ;
+}
+
+div.techDataButtonKonfigurieren{
+ width: 300px ;
+ margin: 0 auto ;
+}
+
+input.reklamation_file_button{
+ padding: 10px ;
+}
+
+div.menuButtonEinzelnKonfigurator{
+ padding-left: 15px ;
+ padding-right: 15px ;
+ background-color: #00B900 ;
+ border-radius: 5px 5px 0px 0px ;
+}
+
+
+
+
+
+
+
+
+#leiste_oben_neu{
+ width: 100% ;
+ margin-top: 5px ;
+ margin-bottom: 5px ;
+}
+
+#leiste_oben_center_neu{
+ max-width: 1200px ;
+ min-width: 300px ;
+ margin: 0 auto ;
+ b order: 1px solid #000 ;
+ height: 95px ;
+}
+
+#leiste_oben_center_inner_neu{
+ position: relative ;
+}
+
+#leiste_oben_neu_logo{
+ float: left ;
+ width: 300px ;
+ margin-top: 17px ;
+ margin-left: 10px ;
+}
+
+img.logo_mf24_weiss_startseite_neu{
+ max-width: 100% ;
+}
+
+#leiste_oben_neu_text{
+ margin-left: 100px ;
+ padding-top: 15px ;
+ line-height: 1.3 ;
+ font-size: 16px ;
+}
+
+
+#leiste_oben_neu_einkaufswagen{
+
+ position: absolute ;
+ right: 0px ;
+}
+
+#einkaufswagen_neu{
+ position: relative ;
+ text-align: center ;
+}
+
+#leiste_oben_neu_menu_button{
+ display: none ;
+ position: absolute ;
+ right: 20px ;
+ margin-top: 27px ;
+}
+
+div.leiste_oben_neu_text_teil_3{
+ color: #051138 ;
+}
+
+div.leiste_oben_neu_text_teil_2{
+ color: #051138 ;
+}
+
+div.leiste_oben_neu_text_teil_1{
+ color: #0460BB ;
+}
+
+
+
+
+#menu_haupt_div{
+ width: 100% ;
+}
+
+#menu_haupt_center_div{
+ max-width: 1200px ;
+ min-width: 300px ;
+ margin: 0 auto ;
+}
+
+
+
+
+
+#leiste_oben_menu_neu{
+ width: 100% ;
+ text-align: center ;
+}
+
+#leiste_oben_menu_center_neu{
+ height: 70px ;
+ border: 1px solid #000 ;
+ margin-top: 5px ;
+ margin-bottom: 10px ;
+}
+
+#leiste_oben_menu_center_inner_neu{
+ display: inline-block ;
+ vertical-align: top ;
+}
+
+#leiste_oben_menu_center_logo_neu{
+ padding: 10px 10px 10px 0px ;
+}
+
+div.buttonMenuNeu{
+ padding-right: 20px ;
+}
+
+#buttonMenuNeuZusammen{
+ font-size: 18px ;
+ padding-top: 20px ;
+}
+
+#buttonMenuKonfiguratorStartenNeu{
+ margin-top: 14px ;
+ font-size: 18px ;
+ padding: 5px 10px 5px 10px ;
+ background-color: #00B900 ;
+ border: 1px solid #000 ;
+ border-radius: 5px ;
+}
+
+a.buttonMenuNeu, a.buttonMenuSmartphoneNeu{
+ text-decoration: none ;
+ color: #000 ;
+}
+
+a.buttonMenuNeu:hover, a.buttonMenuSmartphoneNeu:hover{
+ color: #000 ;
+}
+
+a.buttonMenuKonfiguratorStartenNeu{
+ color: #fff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.buttonMenuSmartphoneNeu{
+ font-size: 24px ;
+ border-bottom: 1px solid #cccccc ;
+}
+
+div.buttonMenuSmartphoneNeuKonfigurator{
+ background-color: #B2D6FF ;
+}
+
+
+#leiste_oben_menu_smartphone_neu{
+ display: none ;
+ width: 100% ;
+ text-align: center ;
+ border-bottom: 1px solid #000 ;
+}
+
+#leiste_oben_menu_center_smartphone_neu{
+ width: 100% ;
+}
+
+
+
+div.abstandNachOben{
+ margin-top: 10px ;
+}
+
+div.abstandNachUnten{
+ margin-bottom: 10px ;
+}
+
+div.abstandNachOben30{
+ margin-top: 30px ;
+}
+
+div.abstandNachUnten30{
+ margin-bottom: 30px ;
+}
+
+div.abstandNachOben50{
+ margin-top: 50px ;
+}
+
+div.abstandNachRechts30{
+ margin-right: 30px ;
+}
+
+div.abstandNachLinks30{
+ margin-left: 30px ;
+}
+
+div.abstandNachOben50{
+ margin-top: 50px ;
+}
+
+div.abstandNachUnten50{
+ margin-bottom: 50px ;
+}
+
+div.borderRundUm{
+ b order: 1px solid #000 ;
+ border: 1px solid #ccc ;
+}
+
+div.StoProzentWidth{
+ width: 100% ;
+}
+
+div.divCenter{
+ text-align: center ;
+}
+
+#imgFensterStartSeite{
+ width: 30% ;
+ float: left ;
+}
+
+#imgLKWStartSeite{
+ width: 60% ;
+ float: left ;
+}
+
+
+img.imgFensterStartSeite{
+ max-width: 100% ;
+}
+
+img.imgFensterStartSeiteLogos{
+ width: 100px ;
+}
+
+#txtFensterStartSeite{
+ float: left ;
+ width: 70% ;
+ margin-top: 50px ;
+}
+
+#buttonKonfiguratorFensterStartSeite{
+ b order: 1px solid #000 ;
+ max-width: 300px ;
+ text-align: center ;
+ padding: 10px ;
+ background-color: #00B900 ;
+ border-radius: 5px ;
+}
+
+a.buttonKonfiguratorFensterStartSeite{
+ color: #fff ;
+}
+
+font.txtFensterStartSeiteUberschrift{
+ font-weight: bold ;
+ font-size: 20px ;
+}
+
+div.startseiteInlineBoxen{
+ display: inline-block ;
+}
+
+div.startseiteInlineBoxenMin400{
+ width: 300px ;
+}
+
+div.marginAuto{
+ margin: 0 auto ;
+}
+
+div.buttonKonfiguratorFensterStartSeiteZwischen{
+ b order: 1px solid #000 ;
+ max-width: 300px ;
+ text-align: center ;
+ padding: 10px ;
+ background-color: #00B900 ;
+ border-radius: 5px ;
+}
+
+div.imgFensterStartSeiteLogosAbstand{
+ margin: 20px ;
+}
+
+
+
+
+
+div.imgKundenstimmenStartSeite{
+ width: 15% ;
+ margin-left: 20px ;
+}
+
+div.txtKundenstimmenStartSeite{
+ width: 70% ;
+ margin-left: 20px ;
+}
+
+img.imgKundenstimmenStartSeite{
+ max-width: 100% ;
+}
+
+
+
+
+
+
+
+div.imgFensterStartSeiteLieferkosten{
+ width: 80px ;
+ margin-left: 30px ;
+}
+
+img.imgFensterStartSeiteLieferkosten{
+ max-width: 100% ;
+}
+
+div.txtFensterStartSeiteLieferkosten{
+ width: 70% ;
+ margin-left: 20px ;
+ padding-top: 25px ;
+}
+
+
+font.txtFensterStartSeiteLieferkostenHell{
+ color: #9D9D9D ;
+}
+
+font.txtFensterStartSeiteLieferkostenDunkel{
+ f ont-size: 20px ;
+}
+
+div.txtKundenstimmenContentStartSeite{
+
+}
+
+div.txtKundenstimmenUnterschriftStartSeite{
+ margin-top:20px ;
+ font-weight: bold ;
+}
+
+div.konfiguratorStartenButtonInnerStartSeite{
+ font-size: 20px ;
+}
+
+td._versandkosten{
+ text-align: left ;
+ padding-right:20px ;
+}
+
+img._zahlungsart{
+ width: 150px ;
+}
+
+div._zahlungsartImg{
+ margin-left: 40px ;
+}
+
+
+
+
+
+#dk_zusammen{
+ width: 100% ;
+}
+
+#dk_zusammen_inner{
+ max-width: 800px ;
+ margin: 0 auto ;
+}
+
+#dk_zusammen_grafik{
+ width: 250px ;
+}
+
+#dk_zusammen_typ{
+ max-width: 400px ;
+ font-size: 20px ;
+ margin-left: 20px ;
+}
+
+div.dk_weiterKaufenAlternativeImInfo{
+ width: 100% ;
+ margin-top: 10px ;
+}
+
+div.dk_weiterKaufenAlternativeButtonImInfo{
+ width: 150px ;
+ padding: 15px ;
+ background-color: #dbdbdb ;
+ color: #fff ;
+ text-align: center ;
+ font-size: 16px ;
+ border-radius: 5px ;
+}
+
+ul.datenschutz{
+ padding-left: 30px ;
+}
+
+a.datenschutz{
+ text-decoration: underline ;
+}
+
+a.datenschutz_nach_oben{
+ font-size: 12px ;
+ padding-left: 10px ;
+ text-decoration: underline ;
+}
+
+a.datenschutz_name{
+ text-decoration: underline ;
+}
+
+img.katalog{
+ max-width: 100% ;
+}
+
+textarea.kontaktNachricht{
+ width: 80% ;
+ padding: 5px ;
+}
+
+input.kontaktKontaktdaten, input.kontaktCaptcher{
+ padding: 5px ;
+ width: 350px ;
+ margin-top: 10px ;
+ margin-bottom: 10px ;
+}
+
+img.captchaZeichen{
+ b order: 1px solid #ff0000 ;
+}
+
+#chat_client_button{
+ position: fixed ;
+ width: 100px ;
+ padding-top: 7px ;
+ padding-bottom: 7px ;
+ background: #65B2FF ;
+ right: 0px ;
+ bottom: 50% ;
+ text-align: center ;
+ color: #fff ;
+ cursor: pointer ;
+ z-index: 999998 ;
+ border-top-left-radius: 8px ;
+}
+
+#chat_client{
+ position: fixed ;
+ display: none ;
+ width: 320px ;
+ height: 350px ;
+ right: 10px ;
+ bottom: 50% ;
+ background: #fff ;
+ z-index: 999999 ;
+ box-shadow: 0 -5px 50px 0 rgba(0, 0, 0, .3) ;
+}
+
+#chat_client_head{
+ padding: 5px ;
+ height: 30px ;
+ background: #65B2FF ;
+}
+
+div.chat_client_head_uberschrift{
+ width: 265px ;
+ text-align: left ;
+ color: #fff ;
+ padding-left: 15px ;
+}
+
+div.chat_client_head_x{
+ width: 30px ;
+ text-align: right ;
+}
+
+
+#chat_client_verlauf{
+ width: 308px ;
+ padding-left: 5px ;
+ padding-right: 5px ;
+ padding-bottom: 5px ;
+ height: 180px ;
+ margin: 20px auto ;
+ overflow-y: scroll ;
+ background: #fff ;
+ word-wrap: break-word ;
+ word-break: break-all ;
+ font-size: 12px ;
+}
+
+#chat_client_nachricht_zusammen{
+ width: 280px ;
+ margin: 0px auto ;
+ border-top: 1px solid #65B2FF ;
+ padding-top: 10px ;
+}
+
+#chat_client_nachricht{
+ width: 228px ;
+ height: 60px ;
+ background: #fff ;
+ border-radius: 8px ;
+}
+
+#chat_client_input_nachricht{
+ width: 223px ;
+ border: none ;
+ border-radius: 8px ;
+ height: 60px ;
+ padding-left: 5px ;
+ resize: none ;
+ outline: none;
+ -webkit-box-shadow: none ;
+ -moz-box-shadow: none ;
+ box-shadow: none ;
+}
+
+#chat_client_senden{
+ margin-left: 10px ;
+ width: 40px ;
+ height: 32px ;
+ background: #00B900 ;
+ border-radius: 3px ;
+}
+
+div.chat_client_user{
+ font-weight: bold ;
+}
+
+div.chat_client_user_nachricht{
+
+}
+
+div.chat_client_user_zeit{
+ text-align: right ;
+ color: #959595 ;
+ font-size: 10px ;
+}
+
+div.chat_client_wokle_user, div.chat_client_wokle_shop{
+ width: 200px ;
+ margin-top: 10px ;
+ padding: 5px 8px 3px 8px ;
+ box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .1) ;
+}
+
+div.chat_client_wokle_user{
+ background: #FFF4D0 ;
+ border-bottom-left-radius: 8px ;
+ border-top-right-radius: 8px ;
+}
+
+div.chat_client_wokle_shop{
+ margin-left: 80px ;
+ background: #EEEDFF ;
+ border-bottom-left-radius: 8px ;
+ border-top-right-radius: 8px ;
+}
+
+#chat_client_verlauf::-webkit-scrollbar {
+ width: 6px;
+ background-color: #F5F5F5;
+} 
+
+#chat_client_verlauf::-webkit-scrollbar-thumb {
+ background-color: #000 ;
+}
+
+#chat_client_verlauf::-webkit-scrollbar-track {
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) ;
+ background-color: #F5F5F5 ;
+}
+
+div.roterBorder{
+ border: 1px solid blue ;
+}
+
+div.warenkorb_icons{
+ display: inline-block ;
+ margin-right: 20px ;
+}
+
+div.warenkorb_icons_zusammen{
+ margin-top: 20px ;
+ margin-bottom: 20px ;
+ text-align: center ;
+}
+
+div.inother_katalog{
+ border: 1px solid #000 ;
+ height: 50vh ;
+ max-width: 100% ;
+ margin-bottom: 10px ;
+}
+
+object.inother_katalog{
+ width: 100% ;
+ height: 100% ;
+}
+
+div.seitenpadding{
+ padding-left: 20px ;
+ padding-right: 20px ;
+}
+
+div.f_und_t_center{
+ text-align: center ;
+ background-color: #F0F0F0 ;
+ padding: 10px 0px 10px 0px ;
+ font-size: 1.5em ;
+ border-radius: 5px ;
+}
+
+font.farben_lieferzeit{
+ color: #ff0000 ;
+ font-size: 0.8em;
+ font-family: Trebuchet MS, Arial;
+ line-height: 1.5;
+}
+
+font.sonder_lieferzeit{
+ color: #ff0000 ;
+ f ont-weight: bold ;
+}
+
+div.k_f_s_grafik{
+ position: relative ;
+ width: 100% ;
+ height: 120px ;
+ margin-bottom: 20px ;
+}
+
+div.k_f_s_grafik_streifen{
+ position: absolute ;
+ bottom: 0px ;
+ width: 100% ;
+ height: 30px ;
+ background-color: #F0F0F0 ;
+ border-radius: 5px ;
+}
+
+div.k_f_s_grafik_inner{
+ position: absolute ;
+ bottom: 5px ;
+ left: calc(50% - 100px) ;
+ width: 200px ;
+ margin: 0 auto ;
+ text-align: center ;
+}
+
+img.k_f_s_grafik{
+ width: 200px ;
+}
+
+div.fuss_trenn_div{
+ height: 12px ;
+}
+
+div.weiterKaufenAlternativeButtonDetails{
+ margin: 0 auto ;
+ width: 100px ;
+ padding: 3px ;
+ background-color: #0096FF ;
+ color: #fff ;
+ text-align: center ;
+ border-radius: 5px ;
+}
+
+div.unserSortimentEinzelnBaunePreis{
+ 
+}
+
+font.unserSortimentEinzelnBaunePreis{
+ font-size: 1.5em;
+ font-family: Arial;
+ line-height: 1.5;
+ color: #000;
+ font-weight: bold;
+}
+
+
+div.unserSortimentDetailsGrafik{
+ margin: 0 auto ;
+ text-align: center ;
+}
+
+img.unserSortimentDetailsGrafik{
+ max-width: 400px ;
+}
+
+div.inothermHausturenAluButton{
+ margin: 0 auto ;
+ width: 200px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
